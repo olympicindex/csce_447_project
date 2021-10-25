@@ -3,6 +3,7 @@
 <head>
 	
 		<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
 
 		
 </head>
@@ -10,81 +11,87 @@
 <body>
   <h2>Bubble Chart</h2>
   <svg width="500" height="500"></svg> <!--Step 2-->
+  <script src="bubble_chart.js"></script>
+  <script>
+    const width = 960;
+    const height = 500;
+    const config = {
+      speed: 0.005,
+      verticalTilt: -30,
+      horizontalTilt: 0
+    }
+    let locations = [];
+    const svg = d3.select('svg')
+        .attr('width', width).attr('height', height);
+    const markerGroup = svg.append('g');
+    const projection = d3.geoOrthographic();
+    const initialScale = projection.scale();
+    const path = d3.geoPath().projection(projection);
+    const center = [width/2, height/2];
 
-	<script type="text/javascript">
+    drawGlobe();    
+    drawGraticule();
+    enableRotation();    
 
-    // // Step 1
-    // var data = [
-    //   {source:"Item 1", x: 100, y: 60, val: 1350, color: "#C9D6DF"},
-    //   {source:"Item 2", x: 30, y: 80, val: 2500, color: "#F7EECF"},
-    //   {source:"Item 3", x: 50, y: 40, val: 5700, color: "#E3E1B2"},
-    //   {source:"Item 4", x: 190, y: 100, val: 30000, color: "#F9CAC8"},
-    //   {source:"Item 5", x: 80, y: 170, val: 47500, color: "#D1C2E0"}
-    // ]
-    
+    function drawGlobe() {  
+        d3.queue()
+            .defer(d3.json, 'https://gist.githubusercontent.com/mbostock/4090846/raw/d534aba169207548a8a3d670c9c2cc719ff05c47/world-110m.json')          
+            .defer(d3.json, 'locations.json')
+            .await((error, worldData, locationData) => {
+                svg.selectAll(".segment")
+                    .data(topojson.feature(worldData, worldData.objects.countries).features)
+                    .enter().append("path")
+                    .attr("class", "segment")
+                    .attr("d", path)
+                    .style("stroke", "#888")
+                    .style("stroke-width", "1px")
+                    .style("fill", (d, i) => '#e5e5e5')
+                    .style("opacity", ".6");
+                    locations = locationData;
+                    drawMarkers();                   
+            });
+    }
 
-    // // Step 3
-    // var svg = d3.select("svg")
-    //           .attr("width", 500)
-    //           .attr("height", 500);
+    function drawGraticule() {
+        const graticule = d3.geoGraticule()
+            .step([10, 10]);
 
-    // // Step 4
-    // svg.selectAll("circle")
-    //   .data(data).enter()
-    //   .append("circle")
-    //   .attr("cx", function(d) {return d.x})
-    //   .attr("cy", function(d) {return d.y})
-    //   .attr("r", function(d) {
-    //     return Math.sqrt(d.val)/Math.PI 
-    //   })
-    //   .attr("fill", function(d) {
-    //     return d.color;
-    //   });
+        svg.append("path")
+            .datum(graticule)
+            .attr("class", "graticule")
+            .attr("d", path)
+            .style("fill", "#fff")
+            .style("stroke", "#ccc");
+    }
 
-    // // Step 5
-    // svg.selectAll("text")
-    //   .data(data).enter()
-    //   .append("text")
-    //   .attr("x", function(d) {return d.x+(Math.sqrt(d.val)/Math.PI)})
-    //   .attr("y", function(d) {return d.y+4})
-    //   .text(function(d) {return d.source})
-    //   .style("font-family", "arial")
-    //   .style("font-size", "12px")
-    
-    d3.csv("data/countries.csv", function(data) {
-        for (var i = 0; i < data.length; i++) {
-            console.log(data[i].longitude);
-            console.log(data[i].latitude);
-        }
-        // Step 3
-        var svg = d3.select("svg")
-                  .attr("width", 10000)
-                  .attr("height", 3000);
+    function enableRotation() {
+        d3.timer(function (elapsed) {
+            projection.rotate([config.speed * elapsed - 120, config.verticalTilt, config.horizontalTilt]);
+            svg.selectAll("path").attr("d", path);
+            drawMarkers();
+        });
+    }        
 
-        // Step 4
-        svg.selectAll("circle")
-          .data(data).enter()
-          .append("circle")
-          .attr("cx", function(d) {return (d.longitude)*5+1000})
-          .attr("cy", function(d) {return (-d.latitude+90)*5})
-          .attr("r", function(d) {
-            return Math.sqrt(5000)/Math.PI 
-          })
-          .attr("fill", function(d) {
-            return "#C9D6DF";
-          });
-        
-        svg.selectAll("text")
-        .data(data).enter()
-        .append("text")
-        .attr("x", function(d) {return (d.longitude)*5+1000})
-        .attr("y", function(d) {return (-d.latitude+90)*5+4})
-        .text(function(d) {return d.COUNTRY})
-        .style("font-family", "arial")
-        .style("font-size", "12px")
-    });
+    function drawMarkers() {
+        const markers = markerGroup.selectAll('circle')
+            .data(locations);
+        markers
+            .enter()
+            .append('circle')
+            .merge(markers)
+            .attr('cx', d => projection([d.longitude, d.latitude])[0])
+            .attr('cy', d => projection([d.longitude, d.latitude])[1])
+            .attr('fill', d => {
+                const coordinate = [d.longitude, d.latitude];
+                gdistance = d3.geoDistance(coordinate, projection.invert(center));
+                return gdistance > 1.57 ? 'none' : 'steelblue';
+            })
+            .attr('r', 7);
 
-
-	</script>
+        markerGroup.each(function () {
+            this.parentNode.appendChild(this);
+        });
+    }
+  </script>
 </body>
 </html>
