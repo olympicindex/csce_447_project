@@ -1,7 +1,7 @@
 # csce_447_project
 This is a semester long project about making and learning about visualizations
 
-# simple run the sever:
-```
-python -m SimpleHTTPServer
-```
+# To view project
+  - install the Liveserver extension on the VisualStudio Code marketplace
+  - Right-click on index.html
+  - click open in live server
