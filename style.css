@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --text-color:white;
+    --body-color: rgb(30, 30, 30);
+    --nav-selected: rgba(130, 135, 136, .6);
+    --nav-barbg: rgba(130, 135, 136, .30);
+    --text-shadowcolor: rgba(255, 255, 255, .35);
+    --nav-shadowcolor: rgba(0, 0,0, .35);
+    --img-shadowcolor: rgba(0, 0,0, .65);
+}
+
+/*------------------------------------------------------*/
+
+body{
+    
+    background-color: var(--body-color);
+    margin: 3.125rem;
+    
+    
+}
+
+/*------------------------------------------------------*/
+
+@font-face{
+    src: url(fonts/NeueMontreal-Bold.otf);
+    font-family: NMB;
+}
+@font-face{
+    src: url(fonts/NeueMontreal-Light.otf);
+    font-family: NML;
+}
+@font-face{
+    src: url(fonts/NeueMontreal-Regular.otf);
+    font-family: NMR;
+}
