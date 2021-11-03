@@ -51,6 +51,9 @@ function display_hdi(d, m, h){
     "\nMedal Count: " + m.Total_Medals +
     "\n HDI Index: " + h.hdi;
 }
+function sigmoid(radius, w=100, b=35, c=2){
+  return (1/(1+Math.pow(Math.E, -(radius / w))) * w - b ) * c;
+}
 
 d3.csv("data/countries.csv", function(data) {
     d3.csv("data/CleanedData.csv", function(medals){
@@ -88,8 +91,30 @@ d3.csv("data/countries.csv", function(data) {
               .attr("cx", function(d) {return (d.longitude)*5+1000})
               .attr("cy", function(d) {return (-d.latitude+90)*5})
 
-              .attr("r", function(d) {
-              return Math.sqrt([2500, 4000, 8000][Math.floor(Math.random() * 3)])/Math.PI
+              .attr("r", function(data) {
+                var h_val = "";
+                var m_val = "";
+                for (var i = 0; i < hdi.length; i++) {
+                  if (hdi[i].Entity == data.COUNTRYAFF && hdi[i].Year==2000){
+                    // console.log(hdi[i]);
+                    h_val = hdi[i];
+                  }
+                }
+                for (var i = 0; i < medals.length; i++) {
+                  if (medals[i].Country_Name == data.COUNTRYAFF && medals[i].Year==2000){
+                    // console.log(medals[i]);
+                    m_val = medals[i];
+                  }
+                }
+                var radius = m_val.Total_Medals;
+                if (radius === undefined){
+                  radius = 0;
+                }
+                radius = 0.0 + radius;
+                 console.log(data.COUNTRYAFF, sigmoid(radius));
+                 console.log(Math.sqrt([2500, 4000, 8000][Math.floor(Math.random() * 3)])/Math.PI);
+                 return sigmoid(radius)
+                 // return Math.sqrt([2500, 4000, 8000][Math.floor(Math.random() * 3)])/Math.PI
               })
             // .attr("r", function(d) {
             //     return data.filter(function(d){ return d.Year == "2008"}).
