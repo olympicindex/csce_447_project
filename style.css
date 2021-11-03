@@ -38,3 +38,72 @@ body{
     src: url(fonts/NeueMontreal-Regular.otf);
     font-family: NMR;
 }
+
+
+
+/*------------------------------------------------------*/
+nav{
+    position: relative;
+    width: auto;
+    height: 2.5rem;
+    background-color: var(--nav-barbg);  /*background of the nav bar */
+    border-radius: .5rem;
+    font-size: 0;
+    box-shadow: 0rem 0rem 1.25rem 0rem var(--nav-shadowcolor);
+    /* border:3px solid white; */
+    
+}
+nav a{
+    font-size: .938rem;
+    font-family: NMR;
+    color: var(--text-color);
+    text-decoration: none;
+    line-height: 2.5rem;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: var(--nav-selected);       /*selected*/
+    width: 6.25rem;
+    border-radius: .5rem;
+    transition: all .45s ease 0s;
+    
+    
+}
+
+/*------------------------------------------------------*/
+
+a:nth-child(1){
+    width: 100px;
+}
+nav .start-home,a:nth-child(1):hover~.animation{
+    width: 100px;
+    left: 0;
+}
+a:nth-child(2){
+    width: 110px;
+}
+nav .start-portfolio,a:nth-child(2):hover~.animation{
+    width: 110px;
+    left: 100px;
+}
+a:nth-child(3){
+    width: 160px;
+}
+nav .start-qualifications,a:nth-child(3):hover~.animation{
+    width: 160px;
+    left: 210px;
+}
+a:nth-child(4){
+    width: 100px;
+}
+nav .start-service,a:nth-child(4):hover~.animation{
+    width: 100px;
+    left: 370px;
+}
