@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
+
 		<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
 
-		
+
 </head>
 
 <body>
@@ -29,13 +29,13 @@
     const path = d3.geoPath().projection(projection);
     const center = [width/2, height/2];
 
-    drawGlobe();    
-    drawGraticule();
-    enableRotation();    
+    // drawGlobe();
+    // drawGraticule();
+    // enableRotation();
 
-    function drawGlobe() {  
+    function drawGlobe() {
         d3.queue()
-            .defer(d3.json, 'https://gist.githubusercontent.com/mbostock/4090846/raw/d534aba169207548a8a3d670c9c2cc719ff05c47/world-110m.json')          
+            .defer(d3.json, 'https://gist.githubusercontent.com/mbostock/4090846/raw/d534aba169207548a8a3d670c9c2cc719ff05c47/world-110m.json')
             .defer(d3.json, 'locations.json')
             .await((error, worldData, locationData) => {
                 svg.selectAll(".segment")
@@ -48,7 +48,7 @@
                     .style("fill", (d, i) => '#e5e5e5')
                     .style("opacity", ".6");
                     locations = locationData;
-                    drawMarkers();                   
+                    drawMarkers();
             });
     }
 
@@ -70,7 +70,7 @@
             svg.selectAll("path").attr("d", path);
             drawMarkers();
         });
-    }        
+    }
 
     function drawMarkers() {
         const markers = markerGroup.selectAll('circle')

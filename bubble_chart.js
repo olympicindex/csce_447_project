@@ -20,7 +20,7 @@
 //   .attr("cx", function(d) {return d.x})
 //   .attr("cy", function(d) {return d.y})
 //   .attr("r", function(d) {
-//     return Math.sqrt(d.val)/Math.PI 
+//     return Math.sqrt(d.val)/Math.PI
 //   })
 //   .attr("fill", function(d) {
 //     return d.color;
@@ -35,36 +35,69 @@
 //   .text(function(d) {return d.source})
 //   .style("font-family", "arial")
 //   .style("font-size", "12px")
+// var hdi = d3.csv("data/hdi.csv", function(d) {
+// return {
+//   Entity: d.Entity,
+//   // model: d.Model,
+//   // length: +d.Length // convert "Length" column to number
+// };
+// }, function(error, rows) {
+// console.log(rows);
+// });
+function display_hdi(d, m, h){
+  return "Detailed Info:" +
+    "\nCountry Name: " + h.Entity +
+    "\nYear: " + h.Year +
+    "\nMedal Count: " + m.Total_Medals +
+    "\n HDI Index: " + h.hdi;
+}
 
 d3.csv("data/countries.csv", function(data) {
     d3.csv("data/CleanedData.csv", function(medals){
+        d3.csv("data/hdi.csv", function(hdi) {
         for (var i = 0; i < data.length; i++) {
-            console.log(data[i].longitude);
-            console.log(data[i].latitude);
+            // console.log(data[i].longitude);
+            // console.log(data[i].latitude);
         }
         // Step 3
         var svg = d3.select("svg")
-                    .attr("width", 10000)
-                    .attr("height", 3000);
-    
+                    .attr("width", 1920)
+                    .attr("height", 1080);
+
         // Step 4
         svg.selectAll("circle")
             .data(data).enter()
             .append("circle")
-            .on("click", function(d) {
-        alert("on click get data" + d.id);})
-            .attr("cx", function(d) {return (d.longitude)*5+1000})
-            .attr("cy", function(d) {return (-d.latitude+90)*5})
-            .attr("r", function(d) {
-            return Math.sqrt([2500, 4000, 8000][Math.floor(Math.random() * 3)])/Math.PI 
-            })
+            .on("click", function(data) {
+              var h_val = "";
+              var m_val = "";
+              for (var i = 0; i < hdi.length; i++) {
+                if (hdi[i].Entity == data.COUNTRYAFF && hdi[i].Year==2000){
+                  console.log(hdi[i]);
+                  h_val = hdi[i];
+                }
+              }
+              for (var i = 0; i < medals.length; i++) {
+                if (medals[i].Country_Name == data.COUNTRYAFF && medals[i].Year==2000){
+                  console.log(medals[i]);
+                  m_val = medals[i];
+                }
+              }
+              // console.log(data);
+              alert("on click get data \n" +display_hdi(data, m_val, h_val));})
+              .attr("cx", function(d) {return (d.longitude)*5+1000})
+              .attr("cy", function(d) {return (-d.latitude+90)*5})
+
+              .attr("r", function(d) {
+              return Math.sqrt([2500, 4000, 8000][Math.floor(Math.random() * 3)])/Math.PI
+              })
             // .attr("r", function(d) {
             //     return data.filter(function(d){ return d.Year == "2008"}).
             //     })
             .attr("fill", function(d) {
             return ['#C9D6DF', '#F7EECF', '#E3E1B2'][Math.floor(Math.random() * 3)];
             });
-        
+
         svg.selectAll("text")
         .data(data).enter()
         .append("text")
@@ -73,5 +106,6 @@ d3.csv("data/countries.csv", function(data) {
         .text(function(d) {return d.ISO})
         .style("font-family", "arial")
         .style("font-size", "12px")
+      });
     });
 });

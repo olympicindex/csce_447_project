@@ -1,4 +1,4 @@
-Year,Country_Name,Country_Code,Total Medals,Gold,Silver,Bronze,HDI,Continent
+Year,Country_Name,Country_Code,Total_Medals,Gold,Silver,Bronze,HDI,Continent
 2008,Afghanistan,AFG,1,0,0,1,0.18,Asia
 2012,Afghanistan,AFG,1,0,0,1,0.25,Asia
 1984,Algeria,ALG,2,0,0,2,0.29,Africa
