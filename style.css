@@ -39,7 +39,8 @@ body{
     font-family: NMR;
 }
 
-
+/* //1896, 1900, 1904, 1908, 1912, 1920, 1924, 1928, 1932, 1936, 1948, 1952, 1956, 1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988, 1992, */
+/* //1996, 2000, 2004, 2008, 2012, 2016, 2020 */
 
 /*------------------------------------------------------*/
 nav{
@@ -87,23 +88,23 @@ nav .start-home,a:nth-child(1):hover~.animation{
     left: 0;
 }
 a:nth-child(2){
-    width: 110px;
+    width: 100px;
 }
 nav .start-portfolio,a:nth-child(2):hover~.animation{
-    width: 110px;
+    width: 100px;
     left: 100px;
 }
 a:nth-child(3){
-    width: 160px;
+    width: 100px;
 }
 nav .start-qualifications,a:nth-child(3):hover~.animation{
-    width: 160px;
-    left: 210px;
+    width: 100px;
+    left: 200px;
 }
 a:nth-child(4){
     width: 100px;
 }
 nav .start-service,a:nth-child(4):hover~.animation{
     width: 100px;
-    left: 370px;
+    left: 300px;
 }

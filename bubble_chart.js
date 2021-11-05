@@ -44,8 +44,8 @@ d3.csv("data/countries.csv", function(data) {
         }
         // Step 3
         var svg = d3.select("svg")
-                    .attr("width", 10000)
-                    .attr("height", 3000);
+                    .attr("width", 5000)
+                    .attr("height", 800);
     
         // Step 4
         svg.selectAll("circle")
