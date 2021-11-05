@@ -40,7 +40,7 @@ body{
 }
 
 /* //1896, 1900, 1904, 1908, 1912, 1920, 1924, 1928, 1932, 1936, 1948, 1952, 1956, 1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988, 1992, */
-/* //1996, 2000, 2004, 2008, 2012, 2016, 2020 */
+/* //1996, 2000, 2004, 2008, 2012, 2016, 2020 -- 29 diff values */
 
 /*------------------------------------------------------*/
 nav{
@@ -54,16 +54,20 @@ nav{
     /* border:3px solid white; */
     
 }
-nav a{
+nav button{
     font-size: .938rem;
     font-family: NMR;
     color: var(--text-color);
+    background-color: rgba(30, 30, 30, 0);
+    border: none;
     text-decoration: none;
     line-height: 2.5rem;
     position: relative;
     z-index: 1;
     display: inline-block;
     text-align: center;
+    cursor: pointer;
+    
 }
 nav .animation{
     position: absolute;
@@ -80,31 +84,31 @@ nav .animation{
 
 /*------------------------------------------------------*/
 
-a:nth-child(1){
-    width: 100px;
+button:nth-child(1){
+    width: 50px;
 }
-nav .start-home,a:nth-child(1):hover~.animation{
-    width: 100px;
+nav .start-home,button:nth-child(1):hover~.animation{
+    width: 50px;
     left: 0;
 }
-a:nth-child(2){
-    width: 100px;
+button:nth-child(2){
+    width: 50px;
 }
-nav .start-portfolio,a:nth-child(2):hover~.animation{
-    width: 100px;
+nav .start-portfolio,button:nth-child(2):hover~.animation{
+    width: 50px;
+    left: 50px;
+}
+button:nth-child(3){
+    width: 50px;
+}
+nav .start-qualifications,button:nth-child(3):hover~.animation{
+    width: 50px;
     left: 100px;
 }
-a:nth-child(3){
-    width: 100px;
+button:nth-child(4){
+    width: 50px;
 }
-nav .start-qualifications,a:nth-child(3):hover~.animation{
-    width: 100px;
-    left: 200px;
-}
-a:nth-child(4){
-    width: 100px;
-}
-nav .start-service,a:nth-child(4):hover~.animation{
-    width: 100px;
-    left: 300px;
+nav .start-service,button:nth-child(4):hover~.animation{
+    width: 50px;
+    left: 150px;
 }
