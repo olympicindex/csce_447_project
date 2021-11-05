@@ -45,7 +45,7 @@ body{
 /*------------------------------------------------------*/
 nav{
     position: relative;
-    width: auto;
+    width: 1450px;
     height: 2.5rem;
     background-color: var(--nav-barbg);  /*background of the nav bar */
     border-radius: .5rem;
@@ -111,4 +111,179 @@ button:nth-child(4){
 nav .start-service,button:nth-child(4):hover~.animation{
     width: 50px;
     left: 150px;
+}
+button:nth-child(5){
+    width: 50px;
+}
+nav .start-service,button:nth-child(5):hover~.animation{
+    width: 50px;
+    left: 200px;
+}
+button:nth-child(6){
+    width: 50px;
+}
+nav .start-service,button:nth-child(6):hover~.animation{
+width: 50px;
+    left: 250px;
+}
+button:nth-child(7){
+    width: 50px;
+}
+nav .start-service,button:nth-child(7):hover~.animation{
+    width: 50px;
+    left: 300px;
+}
+button:nth-child(8){
+    width: 50px;
+}
+nav .start-service,button:nth-child(8):hover~.animation{
+    width: 50px;
+    left: 350px;
+}
+button:nth-child(9){
+    width: 50px;
+}
+nav .start-service,button:nth-child(9):hover~.animation{
+    width: 50px;
+    left: 400px;
+}
+button:nth-child(10){
+    width: 50px;
+}
+nav .start-service,button:nth-child(10):hover~.animation{
+    width: 50px;
+    left: 450px;
+}
+button:nth-child(11){
+    width: 50px;
+}
+nav .start-service,button:nth-child(11):hover~.animation{
+    width: 50px;
+    left: 500px;
+}
+button:nth-child(12){
+    width: 50px;
+}
+nav .start-service,button:nth-child(12):hover~.animation{
+    width: 50px;
+    left: 550px;
+}
+button:nth-child(13){
+    width: 50px;
+}
+nav .start-service,button:nth-child(13):hover~.animation{
+    width: 50px;
+    left: 600px;
+}
+button:nth-child(14){
+    width: 50px;
+}
+nav .start-service,button:nth-child(14):hover~.animation{
+    width: 50px;
+    left: 650px;
+}
+button:nth-child(15){
+    width: 50px;
+}
+nav .start-service,button:nth-child(15):hover~.animation{
+    width: 50px;
+    left: 700px;
+}
+button:nth-child(16){
+    width: 50px;
+}
+nav .start-service,button:nth-child(16):hover~.animation{
+    width: 50px;
+    left: 750px;
+}
+button:nth-child(17){
+    width: 50px;
+}
+nav .start-service,button:nth-child(17):hover~.animation{
+    width: 50px;
+    left: 800px;
+}
+button:nth-child(18){
+    width: 50px;
+}
+nav .start-service,button:nth-child(18):hover~.animation{
+    width: 50px;
+    left: 850px;
+}
+button:nth-child(19){
+    width: 50px;
+}
+nav .start-service,button:nth-child(19):hover~.animation{
+    width: 50px;
+    left: 900px;
+}
+button:nth-child(20){
+    width: 50px;
+}
+nav .start-service,button:nth-child(20):hover~.animation{
+    width: 50px;
+    left: 950px;
+}
+button:nth-child(21){
+    width: 50px;
+}
+nav .start-service,button:nth-child(21):hover~.animation{
+    width: 50px;
+    left: 1000px;
+}
+button:nth-child(22){
+    width: 50px;
+}
+nav .start-service,button:nth-child(22):hover~.animation{
+    width: 50px;
+    left: 1050px;
+}
+button:nth-child(23){
+    width: 50px;
+}
+nav .start-service,button:nth-child(23):hover~.animation{
+    width: 50px;
+    left: 1100px;
+}
+button:nth-child(24){
+    width: 50px;
+}
+nav .start-service,button:nth-child(24):hover~.animation{
+    width: 50px;
+    left: 1150px;
+}
+button:nth-child(25){
+    width: 50px;
+}
+nav .start-service,button:nth-child(25):hover~.animation{
+    width: 50px;
+    left: 1200px;
+}
+button:nth-child(26){
+    width: 50px;
+}
+nav .start-service,button:nth-child(26):hover~.animation{
+    width: 50px;
+    left: 1250px;
+}
+button:nth-child(27){
+    width: 50px;
+}
+nav .start-service,button:nth-child(27):hover~.animation{
+    width: 50px;
+    left: 1300px;
+}
+button:nth-child(28){
+    width: 50px;
+}
+nav .start-service,button:nth-child(28):hover~.animation{
+    width: 50px;
+    left: 1350px;
+}
+button:nth-child(29){
+    width: 50px;
+}
+nav .start-service,button:nth-child(29):hover~.animation{
+    width: 50px;
+    left: 1400px;
 }
