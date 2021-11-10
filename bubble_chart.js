@@ -44,93 +44,64 @@
 // }, function(error, rows) {
 // console.log(rows);
 // });
-function display_hdi(d, m, h){
+var selected_year = 2008;
+function display_hdi(d){
   return "Detailed Info:" +
-    "\nCountry Name: " + h.Entity +
-    "\nYear: " + h.Year +
-    "\nMedal Count: " + m.Total_Medals +
-    "\n HDI Index: " + h.hdi;
+    "\nCountry Name: " + d.Country_Name +
+    "\nYear: " + d.Year +
+    "\nMedal Count: " + d.Total_Medals +
+    "\n HDI Index: " + d.HDI;
 }
-function sigmoid(radius, w=100, b=35, c=2){
+function sigmoid(radius, w=90, b=40, c=3.5){
   return (1/(1+Math.pow(Math.E, -(radius / w))) * w - b ) * c;
+  // return (1+Math.log(radius)) * 10;
 }
 
-d3.csv("data/countries.csv", function(data) {
-    d3.csv("data/CleanedData.csv", function(medals){
-        d3.csv("data/hdi.csv", function(hdi) {
-        for (var i = 0; i < data.length; i++) {
-            // console.log(data[i].longitude);
-            // console.log(data[i].latitude);
-        }
-        // Step 3
-        var svg = d3.select("svg")
-                    .attr("width", 1920)
-                    .attr("height", 1080);
 
-        // Step 4
-        svg.selectAll("circle")
-            .data(data).enter()
-            .append("circle")
-            .on("click", function(data) {
-              var h_val = "";
-              var m_val = "";
-              for (var i = 0; i < hdi.length; i++) {
-                if (hdi[i].Entity == data.COUNTRYAFF && hdi[i].Year==2000){
-                  console.log(hdi[i]);
-                  h_val = hdi[i];
-                }
-              }
-              for (var i = 0; i < medals.length; i++) {
-                if (medals[i].Country_Name == data.COUNTRYAFF && medals[i].Year==2000){
-                  console.log(medals[i]);
-                  m_val = medals[i];
-                }
-              }
-              // console.log(data);
-              alert("on click get data \n" +display_hdi(data, m_val, h_val));})
-              .attr("cx", function(d) {return (d.longitude)*5+1000})
-              .attr("cy", function(d) {return (-d.latitude+90)*5})
+d3.csv("data/sicong_data.csv", function(data){
+  for (var i = 0; i < data.length; i++) {
+      // console.log(data[i].longitude);
+      // console.log(data[i].latitude);
+  }
+  data = data.filter(d => d.Year == selected_year);
+  // Step 3
+  var svg = d3.select("svg")
+              .attr("width", 1920)
+              .attr("height", 1080);
 
-              .attr("r", function(data) {
-                var h_val = "";
-                var m_val = "";
-                for (var i = 0; i < hdi.length; i++) {
-                  if (hdi[i].Entity == data.COUNTRYAFF && hdi[i].Year==2000){
-                    // console.log(hdi[i]);
-                    h_val = hdi[i];
-                  }
-                }
-                for (var i = 0; i < medals.length; i++) {
-                  if (medals[i].Country_Name == data.COUNTRYAFF && medals[i].Year==2000){
-                    // console.log(medals[i]);
-                    m_val = medals[i];
-                  }
-                }
-                var radius = m_val.Total_Medals;
-                if (radius === undefined){
-                  radius = 0;
-                }
-                radius = 0.0 + radius;
-                 console.log(data.COUNTRYAFF, sigmoid(radius));
-                 console.log(Math.sqrt([2500, 4000, 8000][Math.floor(Math.random() * 3)])/Math.PI);
-                 return sigmoid(radius)
-                 // return Math.sqrt([2500, 4000, 8000][Math.floor(Math.random() * 3)])/Math.PI
-              })
-            // .attr("r", function(d) {
-            //     return data.filter(function(d){ return d.Year == "2008"}).
-            //     })
-            .attr("fill", function(d) {
-            return ['#C9D6DF', '#F7EECF', '#E3E1B2'][Math.floor(Math.random() * 3)];
-            });
+  // Step 4
+  svg.selectAll("circle")
+      .data(data).enter()
+      .append("circle")
+      .on("click", function(data) {
+        alert("on click get data \n" +display_hdi(data));})
+        .attr("cx", function(d) {return (d.longitude)*5+1000})
+        .attr("cy", function(d) {return (-d.latitude+90)*5})
 
-        svg.selectAll("text")
-        .data(data).enter()
-        .append("text")
-        .attr("x", function(d) {return (d.longitude)*5+1000})
-        .attr("y", function(d) {return (-d.latitude+90)*5+4})
-        .text(function(d) {return d.ISO})
-        .style("font-family", "arial")
-        .style("font-size", "12px")
+        .attr("r", function(data) {
+          var radius = data.Total_Medals;
+          if (radius === undefined){
+            radius = 0;
+          }
+          radius = 0.0 + radius;
+           console.log(data.Country_Name, sigmoid(radius));
+           console.log(Math.sqrt([2500, 4000, 8000][Math.floor(Math.random() * 3)])/Math.PI);
+           return sigmoid(radius)
+           // return Math.sqrt([2500, 4000, 8000][Math.floor(Math.random() * 3)])/Math.PI
+        })
+      // .attr("r", function(d) {
+      //     return data.filter(function(d){ return d.Year == "2008"}).
+      //     })
+      .attr("fill", function(d) {
+      return ['#C9D6DF', '#F7EECF', '#E3E1B2'][Math.floor(Math.random() * 3)];
       });
-    });
+
+  svg.selectAll("text")
+  .data(data).enter()
+  .append("text")
+  .attr("x", function(d) {return (d.longitude)*5+1000})
+  .attr("y", function(d) {return (-d.latitude+90)*5+4})
+  .text(function(d) {return d.Country_Name})
+  .style("font-family", "arial")
+  .style("font-size", "12px")
 });
