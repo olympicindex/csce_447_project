@@ -56,14 +56,17 @@ function sigmoid(radius, w=90, b=40, c=3.5){
   return (1/(1+Math.pow(Math.E, -(radius / w))) * w - b ) * c;
   // return (1+Math.log(radius)) * 10;
 }
-
+var continent_color = d3.scaleOrdinal().domain(['Asia', 'Africa', 'South America', 'Europe', 'Oceania', 'North America']).range(d3.schemeCategory10);
+var HDI_color = d3.scaleSequential(d3.interpolateCool);
 
 d3.csv("data/sicong_data.csv", function(data){
+  var myColor = d3.scaleOrdinal()
   for (var i = 0; i < data.length; i++) {
       // console.log(data[i].longitude);
       // console.log(data[i].latitude);
   }
   data = data.filter(d => d.Year == selected_year);
+  // console.log(data.Continent);
   // Step 3
   var svg = d3.select("svg")
               .attr("width", 1920)
@@ -77,15 +80,14 @@ d3.csv("data/sicong_data.csv", function(data){
         alert("on click get data \n" +display_hdi(data));})
         .attr("cx", function(d) {return (d.longitude)*5+1000})
         .attr("cy", function(d) {return (-d.latitude+90)*5})
-
         .attr("r", function(data) {
           var radius = data.Total_Medals;
           if (radius === undefined){
             radius = 0;
           }
           radius = 0.0 + radius;
-           console.log(data.Country_Name, sigmoid(radius));
-           console.log(Math.sqrt([2500, 4000, 8000][Math.floor(Math.random() * 3)])/Math.PI);
+           // console.log(data.Country_Name, sigmoid(radius));
+           // console.log(Math.sqrt([2500, 4000, 8000][Math.floor(Math.random() * 3)])/Math.PI);
            return sigmoid(radius)
            // return Math.sqrt([2500, 4000, 8000][Math.floor(Math.random() * 3)])/Math.PI
         })
@@ -93,7 +95,14 @@ d3.csv("data/sicong_data.csv", function(data){
       //     return data.filter(function(d){ return d.Year == "2008"}).
       //     })
       .attr("fill", function(d) {
-      return ['#C9D6DF', '#F7EECF', '#E3E1B2'][Math.floor(Math.random() * 3)];
+      // return ['#C9D6DF', '#F7EECF', '#E3E1B2'][Math.floor(Math.random() * 3)];
+      var rgb = HDI_color(d.HDI);
+      if (rgb == 'rgb(0, 0, 0)'){
+        rgb = 'rgb(200, 200, 200)';
+      }
+      console.log(d.Country_Name, rgb);
+      return rgb;
+      // return continent_color(d.Continent);
       });
 
   svg.selectAll("text")
