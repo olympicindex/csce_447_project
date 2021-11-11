@@ -44,6 +44,7 @@
 // }, function(error, rows) {
 // console.log(rows);
 // });
+var dimension = [1920, 1080];
 var selected_year = 2008;
 function display_hdi(d){
   return "Detailed Info:" +
@@ -69,8 +70,8 @@ d3.csv("data/sicong_data.csv", function(data){
   // console.log(data.Continent);
   // Step 3
   var svg = d3.select("svg")
-              .attr("width", 1920)
-              .attr("height", 1080);
+              .attr("width", dimension[0])
+              .attr("height", dimension[1]);
 
   // Step 4
   svg.selectAll("circle")
@@ -78,8 +79,10 @@ d3.csv("data/sicong_data.csv", function(data){
       .append("circle")
       .on("click", function(data) {
         alert("on click get data \n" +display_hdi(data));})
-        .attr("cx", function(d) {return (d.longitude)*5+1000})
-        .attr("cy", function(d) {return (-d.latitude+90)*5})
+        // .attr("cx", function(d) {return (d.longitude)*5+1000})
+        // .attr("cy", function(d) {return (-d.latitude+90)*5})
+        .attr("cx", function(d) {return (d.longitude)/360 * dimension[0]+ 1/2*dimension[0]})
+        .attr("cy", function(d) {return (-d.latitude)/180 * dimension[1]+ 1/2*dimension[1]})
         .attr("r", function(data) {
           var radius = data.Total_Medals;
           if (radius === undefined){
@@ -100,7 +103,9 @@ d3.csv("data/sicong_data.csv", function(data){
       if (rgb == 'rgb(0, 0, 0)'){
         rgb = 'rgb(200, 200, 200)';
       }
-      console.log(d.Country_Name, rgb);
+      // console.log(d.Country_Name, (d.longitude)*5+1000, (-d.latitude+90)*5);
+      // console.log(d.Country_Name, (d.longitude), (d.latitude));
+      console.log(d.Country_Name, (d.longitude), (d.longitude)/360 * dimension[0]+1/2*dimension[0]);
       return rgb;
       // return continent_color(d.Continent);
       });
@@ -108,9 +113,12 @@ d3.csv("data/sicong_data.csv", function(data){
   svg.selectAll("text")
   .data(data).enter()
   .append("text")
-  .attr("x", function(d) {return (d.longitude)*5+1000})
-  .attr("y", function(d) {return (-d.latitude+90)*5+4})
+  .attr("x", function(d) {return (d.longitude)/360 * dimension[0]+ 1/2*dimension[0]})
+  .attr("y", function(d) {return (-d.latitude)/180 * dimension[1]+ 1/2*dimension[1]})
+  // .attr("x", function(d) {return (d.longitude)*5+1000})
+  // .attr("y", function(d) {return (-d.latitude+90)*5+4})
   .text(function(d) {return d.Country_Name})
-  .style("font-family", "arial")
-  .style("font-size", "12px")
+  .style("font-family", "Cambria")
+  .style("font-size", "13px")
+  .style("text-anchor", "middle")
 });
