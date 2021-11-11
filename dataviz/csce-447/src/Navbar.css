@@ -1,11 +1,13 @@
-.timeline{
-    position: relative;
+.Content{
+    position: absolute;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     bottom: 10vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.Content__timeline{
     width: 50%;
-    justify-content: space-evenly;
 }
 
 .timeline__sections{
