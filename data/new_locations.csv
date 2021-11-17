@@ -1,0 +1,1347 @@
+Year,Country_Name,Total_Medals,Gold,Silver,Bronze,HDI,Continent,longitude,latitude
+2008,Afghanistan,1,0,0,1,0.18,Asia,100,100
+2012,Afghanistan,1,0,0,1,0.25,Asia,100,100
+1984,Algeria,2,0,0,2,0.29,Africa,200,100
+1992,Algeria,2,1,0,1,0.33,Africa,200,100
+1996,Algeria,3,2,0,1,0.35,Africa,200,100
+2000,Algeria,5,1,1,3,0.39,Africa,200,100
+2008,Algeria,2,0,1,1,0.41,Africa,200,100
+2012,Algeria,1,1,0,0,0.45,Africa,200,100
+2016,Algeria,2,0,2,0,0.45,Africa,200,100
+1924,Argentina,6,1,3,2,0.24,South America,300,100
+1928,Argentina,7,3,3,1,0.25,South America,300,100
+1932,Argentina,4,3,1,0,0.26,South America,300,100
+1936,Argentina,7,2,2,3,0.28,South America,300,100
+1948,Argentina,7,3,3,1,0.34,South America,300,100
+1952,Argentina,5,1,2,2,0.36,South America,300,100
+1956,Argentina,2,0,1,1,0.38,South America,300,100
+1960,Argentina,2,0,1,1,0.39,South America,300,100
+1964,Argentina,1,0,1,0,0.39,South America,300,100
+1968,Argentina,2,0,0,2,0.42,South America,300,100
+1972,Argentina,1,0,1,0,0.44,South America,300,100
+1988,Argentina,2,0,1,1,0.5,South America,300,100
+1992,Argentina,1,0,0,1,0.52,South America,300,100
+1996,Argentina,3,0,2,1,0.56,South America,300,100
+2000,Argentina,4,0,2,2,0.61,South America,300,100
+2004,Argentina,6,2,0,4,0.61,South America,300,100
+2008,Argentina,6,2,0,4,0.65,South America,300,100
+2012,Argentina,4,1,1,2,0.7,South America,300,100
+2016,Argentina,4,3,1,0,0.7,South America,300,100
+2020,Argentina,3,0,1,2,0.7,South America,300,100
+1996,Armenia,2,1,1,0,0.51,Europe,400,100
+2000,Armenia,1,0,0,1,0.54,Europe,400,100
+2008,Armenia,5,0,1,4,0.57,Europe,400,100
+2012,Armenia,2,0,1,1,0.58,Europe,400,100
+2016,Armenia,4,1,3,0,0.58,Europe,400,100
+2020,Armenia,4,0,2,2,0.58,Europe,400,100
+1908,Australasia,5,1,2,2,-1,Oceania,,
+1912,Australasia,7,2,2,3,-1,Oceania,,
+1896,Australia,2,2,0,0,0.31,Oceania,500,100
+1900,Australia,5,2,0,3,0.36,Oceania,500,100
+1904,Australia,4,0,3,1,0.36,Oceania,500,100
+1920,Australia,3,0,2,1,0.39,Oceania,500,100
+1924,Australia,6,3,1,2,0.39,Oceania,500,100
+1928,Australia,4,1,2,1,0.4,Oceania,500,100
+1932,Australia,5,3,1,1,0.4,Oceania,500,100
+1936,Australia,1,0,0,1,0.42,Oceania,500,100
+1948,Australia,13,2,6,5,0.47,Oceania,500,100
+1952,Australia,11,6,2,3,0.5,Oceania,500,100
+1956,Australia,35,13,8,14,0.51,Oceania,500,100
+1960,Australia,22,8,8,6,0.52,Oceania,500,100
+1964,Australia,18,6,2,10,0.52,Oceania,500,100
+1968,Australia,17,5,7,5,0.54,Oceania,500,100
+1972,Australia,17,8,7,2,0.56,Oceania,500,100
+1976,Australia,5,0,1,4,0.57,Oceania,500,100
+1980,Australia,9,2,2,5,0.59,Oceania,500,100
+1984,Australia,24,4,8,12,0.59,Oceania,500,100
+1988,Australia,14,3,6,5,0.62,Oceania,500,100
+1992,Australia,27,7,9,11,0.77,Oceania,500,100
+1996,Australia,41,9,9,23,0.81,Oceania,500,100
+2000,Australia,58,16,25,17,0.84,Oceania,500,100
+2004,Australia,50,17,16,17,0.84,Oceania,500,100
+2008,Australia,46,14,15,17,0.87,Oceania,500,100
+2012,Australia,35,8,15,12,0.89,Oceania,500,100
+2016,Australia,29,8,11,10,0.89,Oceania,500,100
+2020,Australia,46,17,7,22,0.89,Oceania,500,100
+1896,Austria,5,2,1,2,0.24,Europe,600,100
+1900,Austria,6,0,3,3,0.27,Europe,600,100
+1904,Austria,3,1,1,1,0.27,Europe,600,100
+1908,Austria,1,0,0,1,0.27,Europe,600,100
+1912,Austria,4,0,2,2,0.27,Europe,600,100
+1924,Austria,4,0,3,1,0.31,Europe,600,100
+1928,Austria,3,2,0,1,0.34,Europe,600,100
+1932,Austria,5,1,1,3,0.35,Europe,600,100
+1936,Austria,13,4,6,3,0.37,Europe,600,100
+1948,Austria,4,1,0,3,0.42,Europe,600,100
+1952,Austria,2,0,1,1,0.44,Europe,600,100
+1956,Austria,2,0,0,2,0.46,Europe,600,100
+1960,Austria,2,1,1,0,0.48,Europe,600,100
+1968,Austria,4,0,2,2,0.52,Europe,600,100
+1972,Austria,3,0,1,2,0.54,Europe,600,100
+1976,Austria,1,0,0,1,0.56,Europe,600,100
+1980,Austria,4,1,2,1,0.56,Europe,600,100
+1984,Austria,3,1,1,1,0.56,Europe,600,100
+1988,Austria,1,1,0,0,0.6,Europe,600,100
+1992,Austria,2,0,2,0,0.64,Europe,600,100
+1996,Austria,3,0,1,2,0.69,Europe,600,100
+2000,Austria,3,2,1,0,0.71,Europe,600,100
+2004,Austria,7,2,4,1,0.71,Europe,600,100
+2008,Austria,3,0,1,2,0.74,Europe,600,100
+2016,Austria,1,0,0,1,0.79,Europe,600,100
+2020,Austria,7,1,1,5,0.79,Europe,600,100
+1996,Azerbaijan,1,0,1,0,0.42,Europe,700,100
+2000,Azerbaijan,3,2,0,1,0.47,Europe,700,100
+2004,Azerbaijan,5,1,0,4,0.47,Europe,700,100
+2008,Azerbaijan,6,1,1,4,0.52,Europe,700,100
+2012,Azerbaijan,9,2,2,5,0.52,Europe,700,100
+2016,Azerbaijan,18,1,7,10,0.52,Europe,700,100
+2020,Azerbaijan,7,0,3,4,0.52,Europe,700,100
+1956,Bahamas,1,0,0,1,0.37,North America,800,100
+1964,Bahamas,1,1,0,0,0.41,North America,800,100
+1992,Bahamas,1,0,0,1,0.48,North America,800,100
+1996,Bahamas,1,0,1,0,0.49,North America,800,100
+2000,Bahamas,3,2,0,1,0.52,North America,800,100
+2004,Bahamas,2,1,0,1,0.52,North America,800,100
+2008,Bahamas,2,0,1,1,0.57,North America,800,100
+2012,Bahamas,1,1,0,0,0.58,North America,800,100
+2016,Bahamas,2,1,0,1,0.58,North America,800,100
+2020,Bahamas,2,2,0,0,0.58,North America,800,100
+2012,Bahrain,1,1,0,0,0.57,Asia,900,100
+2016,Bahrain,2,1,1,0,0.57,Asia,900,100
+2020,Bahrain,1,0,1,0,0.57,Asia,900,100
+2000,Barbados,1,0,0,1,0.62,North America,1000,100
+1996,Belarus,15,1,6,8,0.6,Europe,100,200
+2000,Belarus,17,3,3,11,0.63,Europe,100,200
+2004,Belarus,13,2,5,6,0.63,Europe,100,200
+2008,Belarus,14,3,4,7,0.6,Europe,100,200
+2012,Belarus,10,2,5,3,0.67,Europe,100,200
+2016,Belarus,9,1,4,4,0.67,Europe,100,200
+2020,Belarus,7,1,3,3,0.67,Europe,100,200
+1900,Belgium,17,6,7,4,0.28,Europe,200,200
+1908,Belgium,8,1,5,2,0.28,Europe,200,200
+1912,Belgium,6,2,1,3,0.28,Europe,200,200
+1920,Belgium,42,16,12,14,0.31,Europe,200,200
+1924,Belgium,13,3,7,3,0.31,Europe,200,200
+1928,Belgium,3,0,1,2,0.33,Europe,200,200
+1936,Belgium,2,0,0,2,0.36,Europe,200,200
+1948,Belgium,7,2,2,3,0.39,Europe,200,200
+1952,Belgium,4,2,2,0,0.43,Europe,200,200
+1956,Belgium,2,0,2,0,0.48,Europe,200,200
+1960,Belgium,4,0,2,2,0.49,Europe,200,200
+1964,Belgium,3,2,0,1,0.49,Europe,200,200
+1968,Belgium,2,0,1,1,0.55,Europe,200,200
+1972,Belgium,2,0,2,0,0.56,Europe,200,200
+1976,Belgium,6,0,3,3,0.57,Europe,200,200
+1980,Belgium,1,1,0,0,0.6,Europe,200,200
+1984,Belgium,4,1,1,2,0.6,Europe,200,200
+1988,Belgium,2,0,0,2,0.62,Europe,200,200
+1992,Belgium,3,0,1,2,0.63,Europe,200,200
+1996,Belgium,6,2,2,2,0.65,Europe,200,200
+2000,Belgium,5,0,2,3,0.79,Europe,200,200
+2004,Belgium,3,1,0,2,0.79,Europe,200,200
+2008,Belgium,2,2,0,0,0.79,Europe,200,200
+2012,Belgium,3,0,1,2,0.84,Europe,200,200
+2016,Belgium,6,2,2,2,0.84,Europe,200,200
+2020,Belgium,7,3,1,3,0.84,Europe,200,200
+1976,Bermuda,1,0,0,1,-1,North America,300,200
+2020,Bermuda,1,1,0,0,-1,North America,300,200
+1900,Bohemia,2,0,1,1,-1,North America,,
+1908,Bohemia,2,0,0,2,-1,North America,,
+2012,Botswana,1,0,1,0,0.4,Africa,400,200
+2020,Botswana,1,0,0,1,0.4,Africa,400,200
+1920,Brazil,3,1,1,1,0.1,South America,500,200
+1948,Brazil,1,0,0,1,0.19,South America,500,200
+1952,Brazil,3,1,0,2,0.21,South America,500,200
+1956,Brazil,1,1,0,0,0.23,South America,500,200
+1960,Brazil,2,0,0,2,0.25,South America,500,200
+1964,Brazil,1,0,0,1,0.25,South America,500,200
+1968,Brazil,3,0,1,2,0.27,South America,500,200
+1972,Brazil,2,0,0,2,0.32,South America,500,200
+1976,Brazil,2,0,0,2,0.34,South America,500,200
+1980,Brazil,4,2,0,2,0.36,South America,500,200
+1984,Brazil,8,1,5,2,0.36,South America,500,200
+1988,Brazil,6,1,2,3,0.38,South America,500,200
+1992,Brazil,3,2,1,0,0.42,South America,500,200
+1996,Brazil,15,3,3,9,0.48,South America,500,200
+2000,Brazil,12,0,6,6,0.49,South America,500,200
+2004,Brazil,10,5,2,3,0.49,South America,500,200
+2008,Brazil,17,3,4,10,0.51,South America,500,200
+2012,Brazil,17,3,5,9,0.54,South America,500,200
+2016,Brazil,19,7,6,6,0.54,South America,500,200
+2020,Brazil,21,7,6,8,0.54,South America,500,200
+1960,British West Indies,2,0,0,2,-1,North America,,
+1952,Bulgaria,1,0,0,1,0.34,Europe,600,200
+1956,Bulgaria,5,1,3,1,0.38,Europe,600,200
+1960,Bulgaria,7,1,3,3,0.42,Europe,600,200
+1964,Bulgaria,10,3,5,2,0.42,Europe,600,200
+1968,Bulgaria,9,2,4,3,0.45,Europe,600,200
+1972,Bulgaria,21,6,10,5,0.46,Europe,600,200
+1976,Bulgaria,22,6,9,7,0.47,Europe,600,200
+1980,Bulgaria,41,8,16,17,0.48,Europe,600,200
+1988,Bulgaria,35,10,12,13,0.5,Europe,600,200
+1992,Bulgaria,16,3,7,6,0.49,Europe,600,200
+1996,Bulgaria,15,3,7,5,0.51,Europe,600,200
+2000,Bulgaria,13,5,6,2,0.53,Europe,600,200
+2004,Bulgaria,12,2,1,9,0.53,Europe,600,200
+2008,Bulgaria,5,1,1,3,0.55,Europe,600,200
+2012,Bulgaria,3,0,2,1,0.59,Europe,600,200
+2016,Bulgaria,3,0,1,2,0.59,Europe,600,200
+2020,Bulgaria,6,3,1,2,0.59,Europe,600,200
+2020,Burkina Faso,1,0,0,1,0.22,Africa,700,200
+1996,Burundi,1,1,0,0,0.16,Africa,800,200
+2016,Burundi,1,0,1,0,0.25,Africa,800,200
+1968,Cameroon,1,0,1,0,0.16,Africa,900,200
+1984,Cameroon,1,0,0,1,0.23,Africa,900,200
+2000,Cameroon,1,1,0,0,0.24,Africa,900,200
+2004,Cameroon,1,1,0,0,0.24,Africa,900,200
+2008,Cameroon,1,1,0,0,0.24,Africa,900,200
+2012,Cameroon,1,0,0,1,0.28,Africa,900,200
+1900,Canada,2,1,0,1,0.32,North America,1000,200
+1904,Canada,6,4,1,1,0.32,North America,1000,200
+1908,Canada,16,3,3,10,0.32,North America,1000,200
+1912,Canada,8,3,2,3,0.32,North America,1000,200
+1920,Canada,9,3,3,3,0.37,North America,1000,200
+1924,Canada,4,0,3,1,0.37,North America,1000,200
+1928,Canada,15,4,4,7,0.39,North America,1000,200
+1932,Canada,15,2,5,8,0.38,North America,1000,200
+1936,Canada,9,1,3,5,0.41,North America,1000,200
+1948,Canada,3,0,1,2,0.47,North America,1000,200
+1952,Canada,3,1,2,0,0.5,North America,1000,200
+1956,Canada,6,2,1,3,0.53,North America,1000,200
+1960,Canada,1,0,1,0,0.58,North America,1000,200
+1964,Canada,4,1,2,1,0.58,North America,1000,200
+1968,Canada,5,1,3,1,0.59,North America,1000,200
+1972,Canada,5,0,2,3,0.59,North America,1000,200
+1976,Canada,11,0,5,6,0.6,North America,1000,200
+1984,Canada,44,10,18,16,0.66,North America,1000,200
+1988,Canada,10,3,2,5,0.71,North America,1000,200
+1992,Canada,18,7,4,7,0.78,North America,1000,200
+1996,Canada,22,3,11,8,0.75,North America,1000,200
+2000,Canada,14,3,3,8,0.82,North America,1000,200
+2004,Canada,12,3,6,3,0.82,North America,1000,200
+2008,Canada,20,3,9,8,0.85,North America,1000,200
+2012,Canada,18,2,6,10,0.88,North America,1000,200
+2016,Canada,22,4,3,15,0.88,North America,1000,200
+2020,Canada,24,7,6,11,0.88,North America,1000,200
+1948,Sri Lanka,1,0,1,0,0.18,Asia,100,300
+1984,China,32,15,8,9,0.3,Asia,300,300
+1988,China,28,5,11,12,0.31,Asia,300,300
+1992,China,54,16,22,16,0.35,Asia,300,300
+1996,China,50,16,22,12,0.39,Asia,300,300
+2000,China,58,28,16,14,0.42,Asia,300,300
+2004,China,63,32,17,14,0.42,Asia,300,300
+2008,China,100,48,22,30,0.48,Asia,300,300
+2012,China,91,38,31,22,0.54,Asia,300,300
+2016,China,70,26,18,26,0.54,Asia,300,300
+2020,China,88,38,32,18,0.54,Asia,300,300
+1928,Chile,1,0,1,0,0.18,South America,200,300
+1952,Chile,2,0,2,0,0.3,South America,200,300
+1956,Chile,4,0,2,2,0.32,South America,200,300
+1988,Chile,1,0,1,0,0.48,South America,200,300
+2000,Chile,1,0,0,1,0.61,South America,200,300
+2004,Chile,3,2,0,1,0.61,South America,200,300
+2008,Chile,1,0,1,0,0.65,South America,200,300
+1984,Taiwan,1,0,0,1,0.47,Asia,400,300
+1992,Taiwan,1,0,1,0,0.54,Asia,400,300
+1996,Taiwan,1,0,1,0,0.63,Asia,400,300
+2000,Taiwan,5,0,1,4,0.72,Asia,400,300
+2004,Taiwan,5,2,2,1,0.72,Asia,400,300
+2008,Taiwan,4,1,1,2,0.8,Asia,400,300
+2012,Taiwan,2,1,0,1,0.82,Asia,400,300
+2016,Taiwan,3,1,0,2,0.82,Asia,400,300
+2020,Taiwan,12,2,4,6,0.82,Asia,400,300
+1972,Colombia,3,0,1,2,0.33,South America,500,300
+1984,Colombia,1,0,1,0,0.37,South America,500,300
+1988,Colombia,1,0,0,1,0.39,South America,500,300
+1992,Colombia,1,0,0,1,0.42,South America,500,300
+2000,Colombia,1,1,0,0,0.48,South America,500,300
+2004,Colombia,2,0,0,2,0.48,South America,500,300
+2008,Colombia,3,0,2,1,0.53,South America,500,300
+2012,Colombia,9,1,3,5,0.55,South America,500,300
+2016,Colombia,8,3,2,3,0.55,South America,500,300
+2020,Colombia,5,0,4,1,0.55,South America,500,300
+1988,Costa Rica,1,0,1,0,0.47,North America,600,300
+1996,Costa Rica,1,1,0,0,0.52,North America,600,300
+2000,Costa Rica,2,0,0,2,0.57,North America,600,300
+1992,Croatia,3,0,1,2,0.49,Europe,700,300
+1996,Croatia,2,1,1,0,0.52,Europe,700,300
+2000,Croatia,2,1,0,1,0.56,Europe,700,300
+2004,Croatia,5,1,2,2,0.56,Europe,700,300
+2008,Croatia,5,0,2,3,0.6,Europe,700,300
+2012,Croatia,6,3,1,2,0.63,Europe,700,300
+2016,Croatia,10,5,3,2,0.63,Europe,700,300
+2020,Croatia,8,3,3,2,0.63,Europe,700,300
+1900,Cuba,2,1,1,0,0.17,North America,800,300
+1904,Cuba,3,3,0,0,0.17,North America,800,300
+1948,Cuba,1,0,1,0,0.28,North America,800,300
+1964,Cuba,1,0,1,0,0.36,North America,800,300
+1968,Cuba,4,0,4,0,0.39,North America,800,300
+1972,Cuba,8,3,1,4,0.42,North America,800,300
+1976,Cuba,13,6,4,3,0.47,North America,800,300
+1980,Cuba,20,8,7,5,0.48,North America,800,300
+1992,Cuba,31,14,6,11,0.47,North America,800,300
+1996,Cuba,25,9,8,8,0.51,North America,800,300
+2000,Cuba,29,11,11,7,0.56,North America,800,300
+2004,Cuba,27,9,7,11,0.56,North America,800,300
+2008,Cuba,30,3,10,17,0.73,North America,800,300
+2012,Cuba,15,5,3,7,0.64,North America,800,300
+2016,Cuba,11,5,2,4,0.64,North America,800,300
+2020,Cuba,15,7,3,5,0.64,North America,800,300
+2012,Cyprus,1,0,1,0,0.66,Europe,900,300
+1996,Czech Republic,11,4,3,4,0.54,Europe,900,300
+2000,Czech Republic,8,2,3,3,0.54,Europe,900,300
+2000,Czech Republic,8,2,3,3,0.6,Europe,900,300
+2004,Czech Republic,9,1,3,5,0.6,Europe,900,300
+2008,Czech Republic,7,3,3,1,0.64,Europe,900,300
+2012,Czech Republic,11,4,3,4,0.68,Europe,900,300
+2016,Czech Republic,10,1,2,7,0.68,Europe,900,300
+2020,Czech Republic,11,4,4,3,0.68,Europe,900,300
+1920,Czechoslovakia,2,0,0,2,0.28,Europe,1000,300
+1924,Czechoslovakia,10,1,4,5,0.28,Europe,1000,300
+1928,Czechoslovakia,9,2,5,2,0.3,Europe,1000,300
+1932,Czechoslovakia,4,1,2,1,0.32,Europe,1000,300
+1936,Czechoslovakia,8,3,5,0,0.35,Europe,1000,300
+1948,Czechoslovakia,11,6,2,3,0.39,Europe,1000,300
+1952,Czechoslovakia,13,7,3,3,0.43,Europe,1000,300
+1956,Czechoslovakia,6,1,4,1,0.47,Europe,1000,300
+1960,Czechoslovakia,8,3,2,3,0.48,Europe,1000,300
+1964,Czechoslovakia,14,5,6,3,0.48,Europe,1000,300
+1968,Czechoslovakia,13,7,2,4,0.49,Europe,1000,300
+1972,Czechoslovakia,8,2,4,2,0.5,Europe,1000,300
+1976,Czechoslovakia,8,2,2,4,0.52,Europe,1000,300
+1980,Czechoslovakia,14,2,3,9,0.53,Europe,1000,300
+1988,Czechoslovakia,8,3,3,2,0.53,Europe,1000,300
+1992,Czechoslovakia,7,4,2,1,0.54,Europe,1000,300
+1896,Denmark,6,1,2,3,0.31,Europe,100,400
+1900,Denmark,6,1,3,2,0.34,Europe,100,400
+1908,Denmark,5,0,2,3,0.34,Europe,100,400
+1912,Denmark,12,1,6,5,0.34,Europe,100,400
+1920,Denmark,13,3,9,1,0.36,Europe,100,400
+1924,Denmark,9,2,5,2,0.36,Europe,100,400
+1928,Denmark,6,3,1,2,0.38,Europe,100,400
+1932,Denmark,6,0,3,3,0.39,Europe,100,400
+1936,Denmark,5,0,2,3,0.4,Europe,100,400
+1948,Denmark,20,5,7,8,0.44,Europe,100,400
+1952,Denmark,6,2,1,3,0.47,Europe,100,400
+1956,Denmark,4,1,2,1,0.49,Europe,100,400
+1960,Denmark,6,2,3,1,0.5,Europe,100,400
+1964,Denmark,6,2,1,3,0.5,Europe,100,400
+1968,Denmark,8,1,4,3,0.55,Europe,100,400
+1972,Denmark,1,1,0,0,0.56,Europe,100,400
+1976,Denmark,3,1,0,2,0.59,Europe,100,400
+1980,Denmark,5,2,1,2,0.6,Europe,100,400
+1984,Denmark,6,0,3,3,0.6,Europe,100,400
+1988,Denmark,4,2,1,1,0.61,Europe,100,400
+1992,Denmark,6,1,1,4,0.63,Europe,100,400
+1996,Denmark,6,4,1,1,0.69,Europe,100,400
+2000,Denmark,6,2,3,1,0.78,Europe,100,400
+2004,Denmark,8,2,1,5,0.78,Europe,100,400
+2008,Denmark,7,2,2,3,0.8,Europe,100,400
+2012,Denmark,9,2,4,3,0.83,Europe,100,400
+2016,Denmark,15,2,6,7,0.83,Europe,100,400
+2020,Denmark,11,3,4,4,0.83,Europe,100,400
+1988,Djibouti,1,0,0,1,0.18,Africa,200,400
+1984,Dominican Republic,1,0,0,1,0.35,North America,300,400
+2004,Dominican Republic,1,1,0,0,0.43,North America,300,400
+2008,Dominican Republic,2,1,1,0,0.47,North America,300,400
+2012,Dominican Republic,2,1,1,0,0.49,North America,300,400
+2016,Dominican Republic,1,0,0,1,0.49,North America,300,400
+2020,Dominican Republic,5,0,3,2,0.49,North America,300,400
+1968,East Germany,25,9,9,7,-1,Europe,400,400
+1972,East Germany,66,20,23,23,-1,Europe,400,400
+1976,East Germany,90,40,25,25,-1,Europe,400,400
+1980,East Germany,126,47,37,42,-1,Europe,400,400
+1988,East Germany,102,37,35,30,-1,Europe,400,400
+1996,Ecuador,1,1,0,0,0.46,South America,500,400
+2008,Ecuador,1,0,1,0,0.51,South America,500,400
+2020,Ecuador,3,2,1,0,0.55,South America,500,400
+1928,Egypt,4,2,1,1,0.08,Africa,600,400
+1936,Egypt,5,2,1,2,0.09,Africa,600,400
+1948,Egypt,5,2,2,1,0.13,Africa,600,400
+1952,Egypt,1,0,0,1,0.14,Africa,600,400
+1960,Egypt,2,0,1,1,0.17,Africa,600,400
+1984,Egypt,1,0,1,0,0.26,Africa,600,400
+2004,Egypt,5,1,1,3,0.38,Africa,600,400
+2008,Egypt,2,0,0,2,0.39,Africa,600,400
+2012,Egypt,4,0,3,1,0.41,Africa,600,400
+2016,Egypt,3,0,0,3,0.41,Africa,600,400
+2020,Egypt,6,1,1,4,0.41,Africa,600,400
+2004,Eritrea,1,0,0,1,0.2,Africa,700,400
+1920,Estonia,3,1,2,0,-1,Europe,800,400
+1924,Estonia,6,1,1,4,-1,Europe,800,400
+1928,Estonia,5,2,1,2,-1,Europe,800,400
+1936,Estonia,7,2,2,3,-1,Europe,800,400
+1992,Estonia,2,1,0,1,0.51,Europe,800,400
+2000,Estonia,3,1,0,2,0.63,Europe,800,400
+2004,Estonia,3,0,1,2,0.63,Europe,800,400
+2008,Estonia,2,1,1,0,0.65,Europe,800,400
+2012,Estonia,2,0,1,1,0.73,Europe,800,400
+2016,Estonia,1,0,0,1,0.73,Europe,800,400
+2020,Estonia,2,1,0,1,0.73,Europe,800,400
+1960,Ethiopia,1,1,0,0,0.06,Africa,900,400
+1964,Ethiopia,1,1,0,0,0.06,Africa,900,400
+1968,Ethiopia,2,1,1,0,0.08,Africa,900,400
+1972,Ethiopia,2,0,0,2,0.09,Africa,900,400
+1980,Ethiopia,4,2,0,2,0.12,Africa,900,400
+1992,Ethiopia,3,1,0,2,0.13,Africa,900,400
+1996,Ethiopia,3,2,0,1,0.15,Africa,900,400
+2000,Ethiopia,8,4,1,3,0.18,Africa,900,400
+2004,Ethiopia,7,2,3,2,0.18,Africa,900,400
+2008,Ethiopia,7,4,2,1,0.22,Africa,900,400
+2012,Ethiopia,8,3,2,3,0.26,Africa,900,400
+2016,Ethiopia,8,1,2,5,0.26,Africa,900,400
+2020,Ethiopia,4,1,1,2,0.26,Africa,900,400
+2016,Fiji,1,1,0,0,-1,Oceania,1000,400
+2020,Fiji,2,1,0,1,-1,Oceania,1000,400
+1908,Finland,5,1,1,3,0.18,Europe,100,500
+1912,Finland,26,9,8,9,0.18,Europe,100,500
+1920,Finland,34,15,10,9,0.25,Europe,100,500
+1924,Finland,37,14,13,10,0.25,Europe,100,500
+1928,Finland,25,8,8,9,0.27,Europe,100,500
+1932,Finland,25,5,8,12,0.29,Europe,100,500
+1936,Finland,19,7,6,6,0.32,Europe,100,500
+1948,Finland,20,8,7,5,0.42,Europe,100,500
+1952,Finland,22,6,3,13,0.45,Europe,100,500
+1956,Finland,15,3,1,11,0.47,Europe,100,500
+1960,Finland,5,1,1,3,0.47,Europe,100,500
+1964,Finland,5,3,0,2,0.47,Europe,100,500
+1968,Finland,4,1,2,1,0.51,Europe,100,500
+1972,Finland,8,3,1,4,0.53,Europe,100,500
+1976,Finland,6,4,2,0,0.56,Europe,100,500
+1980,Finland,8,3,1,4,0.59,Europe,100,500
+1984,Finland,12,4,2,6,0.59,Europe,100,500
+1988,Finland,4,1,1,2,0.62,Europe,100,500
+1992,Finland,5,1,2,2,0.68,Europe,100,500
+1996,Finland,4,1,2,1,0.77,Europe,100,500
+2000,Finland,4,2,1,1,0.8,Europe,100,500
+2004,Finland,2,0,2,0,0.8,Europe,100,500
+2008,Finland,4,1,1,2,0.82,Europe,100,500
+2012,Finland,3,0,2,1,0.84,Europe,100,500
+2016,Finland,1,0,0,1,0.84,Europe,100,500
+2020,Finland,2,0,0,2,0.84,Europe,100,500
+1896,France,11,5,4,2,0.26,Europe,200,500
+1900,France,102,27,38,37,0.28,Europe,200,500
+1904,France,1,0,1,0,0.28,Europe,200,500
+1908,France,19,5,5,9,0.28,Europe,200,500
+1912,France,15,7,5,3,0.28,Europe,200,500
+1920,France,41,9,19,13,0.3,Europe,200,500
+1924,France,38,13,15,10,0.3,Europe,200,500
+1928,France,21,6,10,5,0.33,Europe,200,500
+1932,France,19,10,5,4,0.35,Europe,200,500
+1936,France,19,7,6,6,0.36,Europe,200,500
+1948,France,29,10,6,13,0.41,Europe,200,500
+1952,France,18,6,6,6,0.45,Europe,200,500
+1956,France,14,4,4,6,0.49,Europe,200,500
+1960,France,5,0,2,3,0.5,Europe,200,500
+1964,France,15,1,8,6,0.5,Europe,200,500
+1968,France,15,7,3,5,0.53,Europe,200,500
+1972,France,13,2,4,7,0.55,Europe,200,500
+1976,France,9,2,3,4,0.57,Europe,200,500
+1980,France,14,6,5,3,0.59,Europe,200,500
+1984,France,28,5,7,16,0.59,Europe,200,500
+1988,France,16,6,4,6,0.62,Europe,200,500
+1992,France,29,8,5,16,0.67,Europe,200,500
+1996,France,37,15,7,15,0.72,Europe,200,500
+2000,France,38,13,14,11,0.74,Europe,200,500
+2004,France,33,11,9,13,0.74,Europe,200,500
+2008,France,43,7,16,20,0.79,Europe,200,500
+2012,France,35,11,11,13,0.82,Europe,200,500
+2016,France,42,10,18,14,0.82,Europe,200,500
+2020,France,33,10,12,11,0.82,Europe,200,500
+2012,Gabon,1,0,1,0,0.4,Africa,300,500
+1996,Georgia,2,0,0,2,0.48,Europe,400,500
+2000,Georgia,6,0,0,6,0.5,Europe,400,500
+2004,Georgia,4,2,2,0,0.5,Europe,400,500
+2008,Georgia,7,3,2,2,0.52,Europe,400,500
+2012,Georgia,6,1,2,3,0.58,Europe,400,500
+2016,Georgia,7,2,1,4,0.58,Europe,400,500
+2020,Georgia,8,2,5,1,0.58,Europe,400,500
+1896,Germany,13,6,5,2,0.29,Europe,500,500
+1900,Germany,9,4,3,2,0.32,Europe,500,500
+1904,Germany,15,4,5,6,0.32,Europe,500,500
+1908,Germany,13,3,5,5,0.32,Europe,500,500
+1912,Germany,26,6,13,7,0.32,Europe,500,500
+1928,Germany,31,10,7,14,0.37,Europe,500,500
+1932,Germany,20,3,12,5,0.38,Europe,500,500
+1936,Germany,89,33,26,30,0.41,Europe,500,500
+1952,Germany,24,0,7,17,0.44,Europe,500,500
+1992,Germany,82,33,21,28,0.63,Europe,500,500
+1996,Germany,65,20,18,27,0.68,Europe,500,500
+2000,Germany,56,13,17,26,0.7,Europe,500,500
+2004,Germany,49,13,16,20,0.7,Europe,500,500
+2008,Germany,41,16,11,14,0.74,Europe,500,500
+2012,Germany,44,11,20,13,0.8,Europe,500,500
+2016,Germany,42,17,10,15,0.8,Europe,500,500
+2020,Germany,37,10,11,16,0.8,Europe,500,500
+1960,Ghana,1,0,1,0,0.17,Africa,600,500
+1964,Ghana,1,0,0,1,0.17,Africa,600,500
+1972,Ghana,1,0,0,1,0.19,Africa,600,500
+1992,Ghana,1,0,0,1,0.25,Africa,600,500
+2020,Ghana,1,0,0,1,0.33,Africa,600,500
+1896,Great Britain,7,2,3,2,0.28,Europe,700,500
+1900,Great Britain,32,15,8,9,0.33,Europe,700,500
+1904,Great Britain,2,1,1,0,0.33,Europe,700,500
+1908,Great Britain,146,56,51,39,0.33,Europe,700,500
+1912,Great Britain,41,10,15,16,0.33,Europe,700,500
+1920,Great Britain,43,14,16,13,0.36,Europe,700,500
+1924,Great Britain,34,9,13,12,0.36,Europe,700,500
+1928,Great Britain,20,3,10,7,0.37,Europe,700,500
+1932,Great Britain,16,4,7,5,0.37,Europe,700,500
+1936,Great Britain,14,4,7,3,0.39,Europe,700,500
+1948,Great Britain,23,3,14,6,0.46,Europe,700,500
+1952,Great Britain,11,1,2,8,0.49,Europe,700,500
+1956,Great Britain,24,6,7,11,0.5,Europe,700,500
+1960,Great Britain,20,2,6,12,0.5,Europe,700,500
+1964,Great Britain,18,4,12,2,0.5,Europe,700,500
+1968,Great Britain,13,5,5,3,0.53,Europe,700,500
+1972,Great Britain,18,4,5,9,0.54,Europe,700,500
+1976,Great Britain,13,3,5,5,0.56,Europe,700,500
+1980,Great Britain,21,5,7,9,0.56,Europe,700,500
+1984,Great Britain,37,5,11,21,0.56,Europe,700,500
+1988,Great Britain,24,5,10,9,0.58,Europe,700,500
+1992,Great Britain,20,5,3,12,0.61,Europe,700,500
+1996,Great Britain,15,1,8,6,0.68,Europe,700,500
+2000,Great Britain,28,11,10,7,0.72,Europe,700,500
+2004,Great Britain,30,9,9,12,0.72,Europe,700,500
+2008,Great Britain,51,19,13,19,0.72,Europe,700,500
+2012,Great Britain,65,29,17,19,0.76,Europe,700,500
+2016,Great Britain,67,27,23,17,0.76,Europe,700,500
+2020,Great Britain,65,22,21,22,0.76,Europe,700,500
+1896,Greece,47,10,18,19,0.15,Europe,800,500
+1904,Greece,2,1,0,1,0.16,Europe,800,500
+1908,Greece,4,0,3,1,0.16,Europe,800,500
+1912,Greece,2,1,0,1,0.16,Europe,800,500
+1920,Greece,1,0,1,0,0.2,Europe,800,500
+1956,Greece,1,0,0,1,0.35,Europe,800,500
+1960,Greece,1,1,0,0,0.39,Europe,800,500
+1968,Greece,1,0,0,1,0.44,Europe,800,500
+1972,Greece,2,0,2,0,0.46,Europe,800,500
+1980,Greece,3,1,0,2,0.52,Europe,800,500
+1984,Greece,2,0,1,1,0.52,Europe,800,500
+1988,Greece,1,0,0,1,0.54,Europe,800,500
+1992,Greece,2,2,0,0,0.57,Europe,800,500
+1996,Greece,8,4,4,0,0.58,Europe,800,500
+2000,Greece,13,4,6,3,0.66,Europe,800,500
+2004,Greece,16,6,6,4,0.66,Europe,800,500
+2008,Greece,3,0,2,1,0.76,Europe,800,500
+2012,Greece,2,0,0,2,0.75,Europe,800,500
+2016,Greece,6,3,1,2,0.75,Europe,800,500
+2020,Greece,4,2,1,1,0.75,Europe,800,500
+2012,Grenada,1,1,0,0,-1,North America,900,500
+2016,Grenada,1,0,1,0,-1,North America,900,500
+2020,Grenada,1,0,0,1,-1,North America,900,500
+2012,Guatemala,1,0,1,0,0.41,North America,1000,500
+1980,Guyana,1,0,0,1,0.35,South America,100,600
+1924,Haiti,1,0,0,1,-1,North America,200,600
+1928,Haiti,1,0,1,0,-1,North America,200,600
+1996,Hong Kong,1,1,0,0,0.59,Asia,300,600
+2004,Hong Kong,1,0,1,0,0.66,Asia,300,600
+2012,Hong Kong,1,0,0,1,0.8,Asia,300,600
+2020,Hong Kong,6,1,2,3,0.8,Asia,300,600
+1896,Hungary,6,2,1,3,0.17,Europe,400,600
+1900,Hungary,5,1,2,2,0.19,Europe,400,600
+1904,Hungary,4,2,1,1,0.19,Europe,400,600
+1908,Hungary,9,3,4,2,0.19,Europe,400,600
+1912,Hungary,8,3,2,3,0.19,Europe,400,600
+1924,Hungary,9,2,3,4,0.23,Europe,400,600
+1928,Hungary,9,4,5,0,0.26,Europe,400,600
+1932,Hungary,15,6,4,5,0.28,Europe,400,600
+1936,Hungary,16,10,1,5,0.3,Europe,400,600
+1948,Hungary,27,10,5,12,0.35,Europe,400,600
+1952,Hungary,42,16,10,16,0.39,Europe,400,600
+1956,Hungary,26,9,10,7,0.43,Europe,400,600
+1960,Hungary,21,6,8,7,0.46,Europe,400,600
+1964,Hungary,22,10,7,5,0.46,Europe,400,600
+1968,Hungary,32,10,10,12,0.45,Europe,400,600
+1972,Hungary,35,6,13,16,0.46,Europe,400,600
+1976,Hungary,22,4,5,13,0.46,Europe,400,600
+1980,Hungary,32,7,10,15,0.49,Europe,400,600
+1988,Hungary,23,11,6,6,0.49,Europe,400,600
+1992,Hungary,30,11,12,7,0.49,Europe,400,600
+1996,Hungary,21,7,4,10,0.52,Europe,400,600
+2000,Hungary,17,8,6,3,0.58,Europe,400,600
+2004,Hungary,17,8,6,3,0.58,Europe,400,600
+2008,Hungary,10,3,5,2,0.6,Europe,400,600
+2012,Hungary,18,8,4,6,0.62,Europe,400,600
+2016,Hungary,15,8,3,4,0.62,Europe,400,600
+2020,Hungary,20,6,7,7,0.62,Europe,400,600
+1956,Iceland,1,0,1,0,-1,Europe,500,600
+1984,Iceland,1,0,0,1,0.61,Europe,500,600
+2000,Iceland,1,0,0,1,0.79,Europe,500,600
+2008,Iceland,1,0,1,0,0.83,Europe,500,600
+2016,Independent Olympic Athletes,2,1,0,1,-1,,,
+1992,Independent Olympic Participants,3,0,1,2,-1,,,
+1900,India,2,0,2,0,0.04,Asia,600,600
+1928,India,1,1,0,0,0.07,Asia,600,600
+1932,India,1,1,0,0,0.07,Asia,600,600
+1936,India,1,1,0,0,0.08,Asia,600,600
+1948,India,1,1,0,0,0.11,Asia,600,600
+1952,India,2,1,0,1,0.12,Asia,600,600
+1956,India,1,1,0,0,0.14,Asia,600,600
+1960,India,1,0,1,0,0.16,Asia,600,600
+1964,India,1,1,0,0,0.16,Asia,600,600
+1968,India,1,0,0,1,0.17,Asia,600,600
+1972,India,1,0,0,1,0.18,Asia,600,600
+1980,India,1,1,0,0,0.21,Asia,600,600
+1996,India,1,0,0,1,0.27,Asia,600,600
+2000,India,1,0,0,1,0.29,Asia,600,600
+2004,India,1,0,1,0,0.29,Asia,600,600
+2008,India,3,1,0,2,0.33,Asia,600,600
+2012,India,6,0,2,4,0.38,Asia,600,600
+2016,India,2,0,1,1,0.38,Asia,600,600
+2020,India,7,1,2,4,0.38,Asia,600,600
+1988,Indonesia,1,0,1,0,0.33,Asia,700,600
+1992,Indonesia,5,2,2,1,0.35,Asia,700,600
+1996,Indonesia,4,1,1,2,0.38,Asia,700,600
+2000,Indonesia,6,1,3,2,0.41,Asia,700,600
+2004,Indonesia,4,1,1,2,0.41,Asia,700,600
+2008,Indonesia,6,1,1,4,0.45,Asia,700,600
+2012,Indonesia,3,0,2,1,0.47,Asia,700,600
+2016,Indonesia,3,1,2,0,0.47,Asia,700,600
+2020,Indonesia,5,1,1,3,0.47,Asia,700,600
+1948,Iran,1,0,0,1,0.12,Asia,800,600
+1952,Iran,7,0,3,4,0.12,Asia,800,600
+1956,Iran,5,2,2,1,0.15,Asia,800,600
+1960,Iran,4,0,1,3,0.18,Asia,800,600
+1964,Iran,2,0,0,2,0.18,Asia,800,600
+1968,Iran,5,2,1,2,0.22,Asia,800,600
+1972,Iran,3,0,2,1,0.25,Asia,800,600
+1976,Iran,2,0,1,1,0.28,Asia,800,600
+1988,Iran,1,0,1,0,0.33,Asia,800,600
+1992,Iran,3,0,1,2,0.36,Asia,800,600
+1996,Iran,3,1,1,1,0.39,Asia,800,600
+2000,Iran,4,3,0,1,0.42,Asia,800,600
+2004,Iran,6,2,2,2,0.42,Asia,800,600
+2008,Iran,2,1,0,1,0.44,Asia,800,600
+2012,Iran,13,7,5,1,0.51,Asia,800,600
+2016,Iran,8,3,1,4,0.51,Asia,800,600
+2020,Iran,7,3,2,2,0.51,Asia,800,600
+1960,Iraq,1,0,0,1,0.19,Asia,900,600
+1928,Ireland,1,1,0,0,0.33,Europe,1000,600
+1932,Ireland,2,2,0,0,0.33,Europe,1000,600
+1952,Ireland,1,0,1,0,0.43,Europe,1000,600
+1956,Ireland,5,1,1,3,0.46,Europe,1000,600
+1964,Ireland,1,0,0,1,0.48,Europe,1000,600
+1980,Ireland,2,0,1,1,0.55,Europe,1000,600
+1984,Ireland,1,0,1,0,0.55,Europe,1000,600
+1992,Ireland,2,1,1,0,0.61,Europe,1000,600
+1996,Ireland,4,3,0,1,0.65,Europe,1000,600
+2000,Ireland,1,0,1,0,0.73,Europe,1000,600
+2008,Ireland,3,0,1,2,0.83,Europe,1000,600
+2012,Ireland,6,1,1,4,0.85,Europe,1000,600
+2016,Ireland,2,0,2,0,0.85,Europe,1000,600
+2020,Ireland,4,2,0,2,0.85,Europe,1000,600
+1992,Israel,2,0,1,1,0.58,Asia,100,700
+1996,Israel,1,0,0,1,0.63,Asia,100,700
+2000,Israel,1,0,0,1,0.69,Asia,100,700
+2004,Israel,2,1,0,1,0.69,Asia,100,700
+2008,Israel,1,0,0,1,0.75,Asia,100,700
+2016,Israel,2,0,0,2,0.81,Asia,100,700
+2020,Israel,4,2,0,2,0.81,Asia,100,700
+1900,Italy,5,3,2,0,0.2,Europe,200,700
+1908,Italy,4,2,2,0,0.2,Europe,200,700
+1912,Italy,8,5,1,2,0.2,Europe,200,700
+1920,Italy,23,13,5,5,0.23,Europe,200,700
+1924,Italy,16,8,3,5,0.23,Europe,200,700
+1928,Italy,19,7,5,7,0.25,Europe,200,700
+1932,Italy,36,12,12,12,0.26,Europe,200,700
+1936,Italy,22,8,9,5,0.29,Europe,200,700
+1948,Italy,27,8,11,8,0.33,Europe,200,700
+1952,Italy,21,8,9,4,0.36,Europe,200,700
+1956,Italy,25,8,8,9,0.39,Europe,200,700
+1960,Italy,36,13,10,13,0.41,Europe,200,700
+1964,Italy,27,10,10,7,0.41,Europe,200,700
+1968,Italy,16,3,4,9,0.48,Europe,200,700
+1972,Italy,18,5,3,10,0.49,Europe,200,700
+1976,Italy,13,2,7,4,0.53,Europe,200,700
+1980,Italy,15,8,3,4,0.54,Europe,200,700
+1984,Italy,32,14,6,12,0.54,Europe,200,700
+1988,Italy,14,6,4,4,0.57,Europe,200,700
+1992,Italy,19,6,5,8,0.6,Europe,200,700
+1996,Italy,35,13,10,12,0.65,Europe,200,700
+2000,Italy,34,13,8,13,0.71,Europe,200,700
+2004,Italy,32,10,11,11,0.71,Europe,200,700
+2008,Italy,27,8,9,10,0.76,Europe,200,700
+2012,Italy,28,8,9,11,0.81,Europe,200,700
+2016,Italy,28,8,12,8,0.81,Europe,200,700
+2020,Italy,40,10,10,20,0.81,Europe,200,700
+1984,Cote d'Ivoire,1,0,1,0,0.21,Africa,300,700
+2016,Cote d'Ivoire,2,1,0,1,0.22,Africa,300,700
+2020,Cote d'Ivoire,1,0,0,1,0.22,Africa,300,700
+1948,Jamaica,3,1,2,0,0.26,North America,400,700
+1952,Jamaica,5,2,3,0,0.28,North America,400,700
+1968,Jamaica,1,0,1,0,0.38,North America,400,700
+1972,Jamaica,1,0,0,1,0.41,North America,400,700
+1976,Jamaica,2,1,1,0,0.41,North America,400,700
+1980,Jamaica,3,0,0,3,0.41,North America,400,700
+1984,Jamaica,3,0,1,2,0.41,North America,400,700
+1988,Jamaica,2,0,2,0,0.42,North America,400,700
+1992,Jamaica,4,0,3,1,0.43,North America,400,700
+1996,Jamaica,6,1,3,2,0.44,North America,400,700
+2000,Jamaica,9,0,6,3,0.44,North America,400,700
+2004,Jamaica,5,2,1,2,0.44,North America,400,700
+2008,Jamaica,11,5,4,2,0.45,North America,400,700
+2012,Jamaica,12,4,5,3,0.48,North America,400,700
+2016,Jamaica,11,6,3,2,0.48,North America,400,700
+2020,Jamaica,9,4,1,4,0.48,North America,400,700
+1920,Japan,2,0,2,0,0.23,Asia,500,700
+1924,Japan,1,0,0,1,0.23,Asia,500,700
+1928,Japan,5,2,2,1,0.26,Asia,500,700
+1932,Japan,18,7,7,4,0.28,Asia,500,700
+1936,Japan,18,6,4,8,0.3,Asia,500,700
+1952,Japan,9,1,6,2,0.42,Asia,500,700
+1956,Japan,19,4,10,5,0.45,Asia,500,700
+1960,Japan,18,4,7,7,0.49,Asia,500,700
+1964,Japan,29,16,5,8,0.49,Asia,500,700
+1968,Japan,25,11,7,7,0.52,Asia,500,700
+1972,Japan,29,13,8,8,0.56,Asia,500,700
+1976,Japan,25,9,6,10,0.6,Asia,500,700
+1984,Japan,32,10,8,14,0.63,Asia,500,700
+1988,Japan,14,4,3,7,0.66,Asia,500,700
+1992,Japan,22,3,8,11,0.67,Asia,500,700
+1996,Japan,14,3,6,5,0.72,Asia,500,700
+2000,Japan,18,5,8,5,0.76,Asia,500,700
+2004,Japan,37,16,9,12,0.76,Asia,500,700
+2008,Japan,25,9,8,8,0.8,Asia,500,700
+2012,Japan,38,7,14,17,0.83,Asia,500,700
+2016,Japan,41,12,8,21,0.83,Asia,500,700
+2020,Japan,58,27,14,17,0.83,Asia,500,700
+2016,Jordan,1,1,0,0,0.52,Asia,600,700
+2020,Jordan,2,0,1,1,0.52,Asia,600,700
+1996,Kazakhstan,11,3,4,4,0.46,Asia,700,700
+2000,Kazakhstan,7,3,4,0,0.53,Asia,700,700
+2004,Kazakhstan,8,1,4,3,0.53,Asia,700,700
+2008,Kazakhstan,9,2,3,4,0.53,Asia,700,700
+2012,Kazakhstan,11,3,1,7,0.58,Asia,700,700
+2016,Kazakhstan,18,3,5,10,0.58,Asia,700,700
+2020,Kazakhstan,8,0,0,8,0.58,Asia,700,700
+1964,Kenya,1,0,0,1,0.15,Africa,800,700
+1968,Kenya,9,3,4,2,0.17,Africa,800,700
+1972,Kenya,9,2,3,4,0.2,Africa,800,700
+1984,Kenya,3,1,0,2,0.26,Africa,800,700
+1988,Kenya,9,5,2,2,0.27,Africa,800,700
+1992,Kenya,8,2,4,2,0.26,Africa,800,700
+1996,Kenya,8,1,4,3,0.25,Africa,800,700
+2000,Kenya,7,2,3,2,0.26,Africa,800,700
+2004,Kenya,7,1,4,2,0.26,Africa,800,700
+2008,Kenya,16,6,4,6,0.28,Africa,800,700
+2012,Kenya,13,2,4,7,0.31,Africa,800,700
+2016,Kenya,13,6,6,1,0.31,Africa,800,700
+2020,Kenya,10,4,4,2,0.31,Africa,800,700
+2016,Kosovo,1,1,0,0,-1,Europe,900,700
+2020,Kosovo,2,2,0,0,-1,Europe,900,700
+2000,Kuwait,1,0,0,1,0.57,Asia,1000,700
+2012,Kuwait,1,0,0,1,0.54,Asia,1000,700
+2020,Kuwait,1,0,0,1,0.54,Asia,1000,700
+2000,Kyrgyzstan,1,0,0,1,0.45,Asia,100,800
+2008,Kyrgyzstan,3,0,1,2,0.47,Asia,100,800
+2020,Kyrgyzstan,3,0,2,1,0.49,Asia,100,800
+1932,Latvia,1,0,1,0,-1,Europe,200,800
+1936,Latvia,2,0,1,1,-1,Europe,200,800
+1992,Latvia,3,0,2,1,0.48,Europe,200,800
+1996,Latvia,1,0,1,0,0.52,Europe,200,800
+2000,Latvia,3,1,1,1,0.6,Europe,200,800
+2004,Latvia,4,0,4,0,0.6,Europe,200,800
+2008,Latvia,3,1,1,1,0.63,Europe,200,800
+2012,Latvia,2,1,0,1,0.63,Europe,200,800
+2020,Latvia,2,1,0,1,0.63,Europe,200,800
+1952,Lebanon,2,0,1,1,0.25,Asia,300,800
+1972,Lebanon,1,0,1,0,0.35,Asia,300,800
+1980,Lebanon,1,0,0,1,0.37,Asia,300,800
+1992,Lithuania,2,1,0,1,0.49,Europe,400,800
+1996,Lithuania,1,0,0,1,0.53,Europe,400,800
+2000,Lithuania,5,2,0,3,0.61,Europe,400,800
+2004,Lithuania,3,1,2,0,0.61,Europe,400,800
+2008,Lithuania,5,0,3,2,0.64,Europe,400,800
+2012,Lithuania,5,2,0,3,0.65,Europe,400,800
+2016,Lithuania,4,0,1,3,0.65,Europe,400,800
+2020,Lithuania,1,0,1,0,0.65,Europe,400,800
+1900,Luxembourg,1,1,0,0,-1,Europe,500,800
+1920,Luxembourg,1,0,1,0,-1,Europe,500,800
+1952,Luxembourg,1,1,0,0,-1,Europe,500,800
+2000,Macedonia,1,0,0,1,-1,Europe,600,800
+1992,Malaysia,1,0,0,1,0.42,Asia,700,800
+1996,Malaysia,2,0,1,1,0.46,Asia,700,800
+2008,Malaysia,1,0,1,0,0.51,Asia,700,800
+2012,Malaysia,2,0,1,1,0.52,Asia,700,800
+2016,Malaysia,5,0,4,1,0.52,Asia,700,800
+2020,Malaysia,2,0,1,1,0.52,Asia,700,800
+2008,Mauritius,1,0,0,1,0.5,Africa,800,800
+1932,Mexico,2,0,2,0,0.13,North America,900,800
+1936,Mexico,3,0,0,3,0.15,North America,900,800
+1948,Mexico,5,2,1,2,0.21,North America,900,800
+1952,Mexico,1,0,1,0,0.24,North America,900,800
+1956,Mexico,2,1,0,1,0.26,North America,900,800
+1960,Mexico,1,0,0,1,0.29,North America,900,800
+1964,Mexico,1,0,0,1,0.29,North America,900,800
+1968,Mexico,9,3,3,3,0.32,North America,900,800
+1972,Mexico,1,0,1,0,0.35,North America,900,800
+1976,Mexico,2,1,0,1,0.39,North America,900,800
+1980,Mexico,4,0,1,3,0.42,North America,900,800
+1984,Mexico,6,2,3,1,0.42,North America,900,800
+1988,Mexico,2,0,0,2,0.43,North America,900,800
+1992,Mexico,1,0,1,0,0.44,North America,900,800
+1996,Mexico,1,0,0,1,0.47,North America,900,800
+2000,Mexico,6,1,2,3,0.5,North America,900,800
+2004,Mexico,4,0,3,1,0.5,North America,900,800
+2008,Mexico,4,2,0,2,0.52,North America,900,800
+2012,Mexico,8,1,3,4,0.54,North America,900,800
+2016,Mexico,5,0,3,2,0.54,North America,900,800
+2020,Mexico,4,0,0,4,0.54,North America,900,800
+1896,Mixed team,2,1,0,1,-1,,,
+1900,Mixed team,19,8,5,6,-1,,,
+1904,Mixed team,4,2,1,1,-1,,,
+1996,Moldova,2,0,1,1,0.43,Europe,1000,800
+2000,Moldova,2,0,1,1,0.46,Europe,1000,800
+2008,Moldova,1,0,0,1,0.47,Europe,1000,800
+2020,Moldova,1,0,0,1,0.5,Europe,1000,800
+1968,Mongolia,4,0,1,3,-1,Asia,100,900
+1972,Mongolia,1,0,1,0,-1,Asia,100,900
+1976,Mongolia,1,0,1,0,-1,Asia,100,900
+1980,Mongolia,4,0,2,2,0.32,Asia,100,900
+1980,Mongolia,4,0,2,2,0.35,Asia,100,900
+1988,Mongolia,1,0,0,1,0.36,Asia,100,900
+1992,Mongolia,2,0,0,2,0.34,Asia,100,900
+1996,Mongolia,1,0,0,1,0.36,Asia,100,900
+2004,Mongolia,1,0,0,1,0.41,Asia,100,900
+2008,Mongolia,4,2,2,0,0.45,Asia,100,900
+2012,Mongolia,5,0,2,3,0.5,Asia,100,900
+2016,Mongolia,2,0,1,1,0.5,Asia,100,900
+2020,Mongolia,4,0,1,3,0.5,Asia,100,900
+2012,Montenegro,1,0,1,0,-1,Europe,200,900
+1960,Morocco,1,0,1,0,0.15,Africa,300,900
+1984,Morocco,2,2,0,0,0.23,Africa,300,900
+1988,Morocco,3,1,0,2,0.25,Africa,300,900
+1992,Morocco,3,1,1,1,0.27,Africa,300,900
+1996,Morocco,2,0,0,2,0.3,Africa,300,900
+2000,Morocco,5,0,1,4,0.33,Africa,300,900
+2004,Morocco,3,2,1,0,0.33,Africa,300,900
+2008,Morocco,2,0,1,1,0.37,Africa,300,900
+2012,Morocco,1,0,0,1,0.42,Africa,300,900
+2016,Morocco,1,0,0,1,0.42,Africa,300,900
+2020,Morocco,1,1,0,0,0.42,Africa,300,900
+1996,Mozambique,1,0,0,1,0.19,Africa,400,900
+2000,Mozambique,1,1,0,0,0.21,Africa,400,900
+1992,Namibia,2,0,2,0,0.36,Africa,500,900
+1996,Namibia,2,0,2,0,0.34,Africa,500,900
+2020,Namibia,1,0,1,0,0.41,Africa,500,900
+1900,Netherlands,5,0,2,3,0.33,Europe,600,900
+1908,Netherlands,2,0,0,2,0.33,Europe,600,900
+1912,Netherlands,3,0,0,3,0.33,Europe,600,900
+1920,Netherlands,11,4,2,5,0.37,Europe,600,900
+1924,Netherlands,10,4,1,5,0.37,Europe,600,900
+1928,Netherlands,19,6,9,4,0.4,Europe,600,900
+1932,Netherlands,7,2,5,0,0.4,Europe,600,900
+1936,Netherlands,17,6,4,7,0.42,Europe,600,900
+1948,Netherlands,16,5,2,9,0.48,Europe,600,900
+1952,Netherlands,5,0,5,0,0.49,Europe,600,900
+1960,Netherlands,3,0,1,2,0.51,Europe,600,900
+1964,Netherlands,10,2,4,4,0.51,Europe,600,900
+1968,Netherlands,7,3,3,1,0.54,Europe,600,900
+1972,Netherlands,5,3,1,1,0.56,Europe,600,900
+1976,Netherlands,5,0,2,3,0.59,Europe,600,900
+1980,Netherlands,3,0,1,2,0.6,Europe,600,900
+1984,Netherlands,13,5,2,6,0.6,Europe,600,900
+1988,Netherlands,9,2,2,5,0.64,Europe,600,900
+1992,Netherlands,15,2,6,7,0.69,Europe,600,900
+1996,Netherlands,19,4,5,10,0.76,Europe,600,900
+2000,Netherlands,25,12,9,4,0.79,Europe,600,900
+2004,Netherlands,22,4,9,9,0.79,Europe,600,900
+2008,Netherlands,16,7,5,4,0.83,Europe,600,900
+2012,Netherlands,20,6,6,8,0.86,Europe,600,900
+2016,Netherlands,19,8,7,4,0.86,Europe,600,900
+2020,Netherlands,36,10,12,14,0.86,Europe,600,900
+1988,Netherlands Antilles,1,0,1,0,-1,North America,,
+1920,New Zealand,1,0,0,1,0.41,Oceania,700,900
+1924,New Zealand,1,0,0,1,0.41,Oceania,700,900
+1928,New Zealand,1,1,0,0,0.42,Oceania,700,900
+1932,New Zealand,1,0,1,0,0.41,Oceania,700,900
+1936,New Zealand,1,1,0,0,0.43,Oceania,700,900
+1952,New Zealand,3,1,0,2,0.52,Oceania,700,900
+1956,New Zealand,2,2,0,0,0.53,Oceania,700,900
+1960,New Zealand,3,2,0,1,0.55,Oceania,700,900
+1964,New Zealand,5,3,0,2,0.55,Oceania,700,900
+1968,New Zealand,3,1,0,2,0.54,Oceania,700,900
+1972,New Zealand,3,1,1,1,0.55,Oceania,700,900
+1976,New Zealand,4,2,1,1,0.56,Oceania,700,900
+1984,New Zealand,11,8,1,2,0.57,Oceania,700,900
+1988,New Zealand,13,3,2,8,0.59,Oceania,700,900
+1992,New Zealand,10,1,4,5,0.65,Oceania,700,900
+1996,New Zealand,6,3,2,1,0.73,Oceania,700,900
+2000,New Zealand,4,1,0,3,0.8,Oceania,700,900
+2004,New Zealand,5,3,2,0,0.8,Oceania,700,900
+2008,New Zealand,9,3,2,4,0.82,Oceania,700,900
+2012,New Zealand,13,6,2,5,0.86,Oceania,700,900
+2016,New Zealand,18,4,9,5,0.86,Oceania,700,900
+2020,New Zealand,20,7,6,7,0.86,Oceania,700,900
+1972,Niger,1,0,0,1,0.07,Africa,800,900
+2016,Niger,1,0,1,0,0.17,Africa,800,900
+1964,Nigeria,1,0,0,1,0.11,Africa,900,900
+1972,Nigeria,1,0,0,1,0.15,Africa,900,900
+1984,Nigeria,2,0,1,1,0.18,Africa,900,900
+1992,Nigeria,4,0,3,1,0.2,Africa,900,900
+1996,Nigeria,6,2,1,3,0.21,Africa,900,900
+2000,Nigeria,3,1,2,0,0.22,Africa,900,900
+2004,Nigeria,2,0,0,2,0.22,Africa,900,900
+2008,Nigeria,5,0,3,2,0.23,Africa,900,900
+2016,Nigeria,1,0,0,1,0.26,Africa,900,900
+2020,Nigeria,2,0,1,1,0.26,Africa,900,900
+1972,North Korea,5,1,1,3,-1,Asia,1000,900
+1976,North Korea,2,1,1,0,-1,Asia,1000,900
+1980,North Korea,5,0,3,2,-1,Asia,1000,900
+1992,North Korea,9,4,0,5,-1,Asia,1000,900
+1996,North Korea,5,2,1,2,-1,Asia,1000,900
+2000,North Korea,4,0,1,3,-1,Asia,1000,900
+2004,North Korea,5,0,4,1,-1,Asia,1000,900
+2008,North Korea,6,2,2,2,-1,Asia,1000,900
+2012,North Korea,7,4,0,3,-1,Asia,1000,900
+2016,North Korea,7,2,3,2,-1,Asia,1000,900
+2020,North Macedonia,1,0,1,0,0.51,Europe,100,1000
+1900,Norway,5,0,2,3,0.33,Europe,200,1000
+1904,Norway,2,2,0,0,0.33,Europe,200,1000
+1908,Norway,8,2,3,3,0.33,Europe,200,1000
+1912,Norway,10,4,1,5,0.33,Europe,200,1000
+1920,Norway,31,13,9,9,0.36,Europe,200,1000
+1924,Norway,10,5,2,3,0.36,Europe,200,1000
+1928,Norway,4,1,2,1,0.37,Europe,200,1000
+1936,Norway,6,1,3,2,0.41,Europe,200,1000
+1948,Norway,7,1,3,3,0.46,Europe,200,1000
+1952,Norway,5,3,2,0,0.48,Europe,200,1000
+1956,Norway,3,1,0,2,0.5,Europe,200,1000
+1960,Norway,1,1,0,0,0.51,Europe,200,1000
+1968,Norway,2,1,1,0,0.55,Europe,200,1000
+1972,Norway,4,2,1,1,0.57,Europe,200,1000
+1976,Norway,2,1,1,0,0.59,Europe,200,1000
+1984,Norway,3,0,1,2,0.61,Europe,200,1000
+1988,Norway,5,2,3,0,0.62,Europe,200,1000
+1992,Norway,7,2,4,1,0.67,Europe,200,1000
+1996,Norway,7,2,2,3,0.73,Europe,200,1000
+2000,Norway,10,4,3,3,0.82,Europe,200,1000
+2004,Norway,6,5,0,1,0.82,Europe,200,1000
+2008,Norway,9,3,5,1,0.83,Europe,200,1000
+2012,Norway,4,2,1,1,0.84,Europe,200,1000
+2016,Norway,4,0,0,4,0.84,Europe,200,1000
+2020,Norway,8,4,2,2,0.84,Europe,200,1000
+1956,Pakistan,1,0,1,0,0.11,Asia,300,1000
+1960,Pakistan,2,1,0,1,0.13,Asia,300,1000
+1964,Pakistan,1,0,1,0,0.13,Asia,300,1000
+1968,Pakistan,1,1,0,0,0.15,Asia,300,1000
+1972,Pakistan,1,0,1,0,0.16,Asia,300,1000
+1976,Pakistan,1,0,0,1,0.18,Asia,300,1000
+1984,Pakistan,1,1,0,0,0.18,Asia,300,1000
+1988,Pakistan,1,0,0,1,0.21,Asia,300,1000
+1992,Pakistan,1,0,0,1,0.23,Asia,300,1000
+1948,Panama,2,0,0,2,-1,South America,400,1000
+2008,Panama,1,1,0,0,0.54,North America,400,1000
+2004,Paraguay,1,0,1,0,0.45,South America,500,1000
+1948,Peru,1,1,0,0,0.19,South America,600,1000
+1984,Peru,1,0,1,0,0.37,South America,600,1000
+1988,Peru,1,0,1,0,0.39,South America,600,1000
+1992,Peru,1,0,1,0,0.41,South America,600,1000
+1928,Philippines,1,0,0,1,0.15,Asia,700,1000
+1932,Philippines,3,0,0,3,0.15,Asia,700,1000
+1936,Philippines,1,0,0,1,0.18,Asia,700,1000
+1964,Philippines,1,0,1,0,0.29,Asia,700,1000
+1988,Philippines,1,0,0,1,0.39,Asia,700,1000
+1992,Philippines,1,0,0,1,0.41,Asia,700,1000
+1996,Philippines,1,0,1,0,0.42,Asia,700,1000
+2016,Philippines,1,0,1,0,0.46,Asia,700,1000
+2020,Philippines,4,1,2,1,0.46,Asia,700,1000
+1924,Poland,2,0,1,1,0.22,Europe,800,1000
+1928,Poland,5,1,1,3,0.23,Europe,800,1000
+1932,Poland,7,2,1,4,0.24,Europe,800,1000
+1936,Poland,6,0,3,3,0.27,Europe,800,1000
+1948,Poland,1,0,0,1,0.34,Europe,800,1000
+1952,Poland,4,1,2,1,0.36,Europe,800,1000
+1956,Poland,9,1,4,4,0.41,Europe,800,1000
+1960,Poland,21,4,6,11,0.44,Europe,800,1000
+1964,Poland,23,7,6,10,0.44,Europe,800,1000
+1968,Poland,18,5,2,11,0.46,Europe,800,1000
+1972,Poland,21,7,5,9,0.48,Europe,800,1000
+1976,Poland,26,7,6,13,0.48,Europe,800,1000
+1980,Poland,32,3,14,15,0.49,Europe,800,1000
+1988,Poland,16,2,5,9,0.5,Europe,800,1000
+1992,Poland,19,3,6,10,0.53,Europe,800,1000
+1996,Poland,17,7,5,5,0.57,Europe,800,1000
+2000,Poland,14,6,5,3,0.6,Europe,800,1000
+2004,Poland,10,3,2,5,0.6,Europe,800,1000
+2008,Poland,11,4,5,2,0.63,Europe,800,1000
+2012,Poland,11,3,2,6,0.67,Europe,800,1000
+2016,Poland,11,2,3,6,0.67,Europe,800,1000
+2020,Poland,14,4,5,5,0.67,Europe,800,1000
+1924,Portugal,1,0,0,1,0.15,Europe,900,1000
+1928,Portugal,1,0,0,1,0.16,Europe,900,1000
+1936,Portugal,1,0,0,1,0.18,Europe,900,1000
+1948,Portugal,2,0,1,1,0.23,Europe,900,1000
+1952,Portugal,1,0,0,1,0.26,Europe,900,1000
+1960,Portugal,1,0,1,0,0.31,Europe,900,1000
+1976,Portugal,2,0,2,0,0.43,Europe,900,1000
+1984,Portugal,3,1,0,2,0.45,Europe,900,1000
+1988,Portugal,1,1,0,0,0.48,Europe,900,1000
+1996,Portugal,2,1,0,1,0.59,Europe,900,1000
+2000,Portugal,2,0,0,2,0.63,Europe,900,1000
+2004,Portugal,3,0,2,1,0.63,Europe,900,1000
+2008,Portugal,2,1,1,0,0.66,Europe,900,1000
+2012,Portugal,1,0,1,0,0.75,Europe,900,1000
+2016,Portugal,1,0,0,1,0.75,Europe,900,1000
+2020,Portugal,4,1,1,2,0.75,Europe,900,1000
+1948,Puerto Rico,1,0,0,1,0.31,North America,1000,1000
+1976,Puerto Rico,1,0,0,1,0.49,North America,1000,1000
+1984,Puerto Rico,2,0,1,1,0.51,North America,1000,1000
+1992,Puerto Rico,1,0,0,1,0.56,North America,1000,1000
+1996,Puerto Rico,1,0,0,1,0.6,North America,1000,1000
+2012,Puerto Rico,2,0,1,1,0.62,North America,1000,1000
+2016,Puerto Rico,1,1,0,0,0.62,North America,1000,1000
+2020,Puerto Rico,1,1,0,0,0.62,North America,1000,1000
+1992,Qatar,1,0,0,1,0.43,Asia,100,1100
+2000,Qatar,1,0,0,1,0.5,Asia,100,1100
+2012,Qatar,2,0,0,2,0.63,Asia,100,1100
+2016,Qatar,1,0,1,0,0.63,Asia,100,1100
+2020,Qatar,3,2,0,1,0.63,Asia,100,1100
+1960,Taiwan,1,0,1,0,0.3,Asia,,
+1968,Taiwan,1,0,0,1,0.35,Asia,,
+2020,ROC (Russia),71,20,28,23,-1,Asia,300,1100
+1924,Romania,1,0,0,1,0.17,Europe,200,1100
+1936,Romania,1,0,1,0,0.22,Europe,200,1100
+1952,Romania,4,1,1,2,0.29,Europe,200,1100
+1956,Romania,13,5,3,5,0.34,Europe,200,1100
+1960,Romania,10,3,1,6,0.4,Europe,200,1100
+1964,Romania,12,2,4,6,0.4,Europe,200,1100
+1968,Romania,15,4,6,5,0.4,Europe,200,1100
+1972,Romania,16,3,6,7,0.42,Europe,200,1100
+1976,Romania,27,4,9,14,0.46,Europe,200,1100
+1980,Romania,25,6,6,13,0.46,Europe,200,1100
+1984,Romania,53,20,16,17,0.46,Europe,200,1100
+1988,Romania,24,7,11,6,0.44,Europe,200,1100
+1992,Romania,18,4,6,8,0.43,Europe,200,1100
+1996,Romania,20,4,7,9,0.45,Europe,200,1100
+2000,Romania,26,11,6,9,0.49,Europe,200,1100
+2004,Romania,19,8,5,6,0.49,Europe,200,1100
+2008,Romania,9,4,1,4,0.54,Europe,200,1100
+2012,Romania,7,2,4,1,0.57,Europe,200,1100
+2016,Romania,4,1,1,2,0.57,Europe,200,1100
+2020,Romania,4,1,3,0,0.57,Europe,200,1100
+1996,Russia,63,26,21,16,0.48,Europe,300,1100
+2000,Russia,89,32,28,29,0.51,Europe,300,1100
+2004,Russia,90,28,26,36,0.51,Europe,300,1100
+2008,Russia,60,24,13,23,0.52,Europe,300,1100
+2012,Russia,68,20,20,28,0.57,Europe,300,1100
+2016,Russia,56,19,17,20,0.57,Europe,300,1100
+1908,Russia,3,1,2,0,0.12,Europe,300,1100
+1912,Russia,5,0,2,3,0.12,Europe,300,1100
+2008,Samoa,1,0,1,0,-1,Oceania,400,1100
+2020,San Marino,3,0,1,2,-1,Europe,500,1100
+2000,Saudi Arabia,2,0,1,1,0.46,Asia,600,1100
+2012,Saudi Arabia,1,0,0,1,0.5,Asia,600,1100
+2020,Saudi Arabia,1,0,1,0,0.5,Asia,600,1100
+1988,Senegal,1,0,1,0,0.17,Africa,700,1100
+2008,Serbia,3,0,1,2,0.52,Europe,800,1100
+2012,Serbia,4,1,1,2,0.54,Europe,800,1100
+2016,Serbia,8,2,4,2,0.54,Europe,800,1100
+2020,Serbia,9,3,1,5,0.54,Europe,800,1100
+2004,Serbia and Montenegro,2,0,2,0,-1,Europe,,
+1960,Singapore,1,0,1,0,0.36,Asia,900,1100
+2008,Singapore,1,0,1,0,0.69,Asia,900,1100
+2012,Singapore,2,0,0,2,0.82,Asia,900,1100
+2016,Singapore,1,1,0,0,0.82,Asia,900,1100
+1996,Slovakia,3,1,1,1,0.52,Europe,1000,1100
+2000,Slovakia,5,1,3,1,0.57,Europe,1000,1100
+2004,Slovakia,6,2,2,2,0.57,Europe,1000,1100
+2008,Slovakia,6,3,3,0,0.6,Europe,1000,1100
+2012,Slovakia,4,0,1,3,0.62,Europe,1000,1100
+2016,Slovakia,4,2,2,0,0.62,Europe,1000,1100
+2020,Slovakia,4,1,2,1,0.62,Europe,1000,1100
+1992,Slovenia,2,0,0,2,0.56,Europe,100,1200
+1996,Slovenia,2,0,2,0,0.6,Europe,100,1200
+2000,Slovenia,2,2,0,0,0.69,Europe,100,1200
+2004,Slovenia,4,0,1,3,0.69,Europe,100,1200
+2008,Slovenia,5,1,2,2,0.72,Europe,100,1200
+2012,Slovenia,4,1,1,2,0.77,Europe,100,1200
+2016,Slovenia,4,1,2,1,0.77,Europe,100,1200
+2020,Slovenia,5,3,1,1,0.77,Europe,100,1200
+1908,South Africa,2,1,1,0,0.12,Africa,200,1200
+1912,South Africa,6,4,2,0,0.12,Africa,200,1200
+1920,South Africa,10,3,4,3,0.13,Africa,200,1200
+1924,South Africa,3,1,1,1,0.13,Africa,200,1200
+1928,South Africa,3,1,0,2,0.13,Africa,200,1200
+1932,South Africa,5,2,0,3,0.14,Africa,200,1200
+1936,South Africa,1,0,1,0,0.15,Africa,200,1200
+1948,South Africa,4,2,1,1,0.19,Africa,200,1200
+1952,South Africa,10,2,4,4,0.21,Africa,200,1200
+1956,South Africa,4,0,0,4,0.23,Africa,200,1200
+1960,South Africa,3,0,1,2,0.26,Africa,200,1200
+1992,South Africa,2,0,2,0,0.36,Africa,200,1200
+1996,South Africa,5,3,1,1,0.36,Africa,200,1200
+2000,South Africa,5,0,2,3,0.33,Africa,200,1200
+2004,South Africa,6,1,3,2,0.33,Africa,200,1200
+2008,South Africa,1,0,1,0,0.35,Africa,200,1200
+2012,South Africa,6,4,1,1,0.38,Africa,200,1200
+2016,South Africa,10,2,6,2,0.38,Africa,200,1200
+2020,South Africa,3,1,2,0,0.38,Africa,200,1200
+1948,South Korea,2,0,0,2,0.19,Asia,300,1200
+1952,South Korea,2,0,0,2,0.23,Asia,300,1200
+1956,South Korea,2,0,1,1,0.25,Asia,300,1200
+1964,South Korea,3,0,2,1,0.28,Asia,300,1200
+1968,South Korea,2,0,1,1,0.32,Asia,300,1200
+1972,South Korea,1,0,1,0,0.36,Asia,300,1200
+1976,South Korea,6,1,1,4,0.4,Asia,300,1200
+1984,South Korea,19,6,6,7,0.45,Asia,300,1200
+1988,South Korea,33,12,10,11,0.51,Asia,300,1200
+1992,South Korea,29,12,5,12,0.56,Asia,300,1200
+1996,South Korea,27,7,15,5,0.63,Asia,300,1200
+2000,South Korea,28,8,10,10,0.72,Asia,300,1200
+2004,South Korea,30,9,12,9,0.72,Asia,300,1200
+2008,South Korea,32,13,11,8,0.81,Asia,300,1200
+2012,South Korea,30,13,9,8,0.85,Asia,300,1200
+2016,South Korea,21,9,3,9,0.85,Asia,300,1200
+2020,South Korea,20,6,4,10,0.85,Asia,300,1200
+1952,Russia,71,22,30,19,0.38,Europe,300,1100
+1956,Russia,98,37,29,32,0.42,Europe,300,1100
+1960,Russia,103,43,29,31,0.47,Europe,300,1100
+1964,Russia,96,30,31,35,0.47,Europe,300,1100
+1968,Russia,91,29,32,30,0.5,Europe,300,1100
+1972,Russia,99,50,27,22,0.49,Europe,300,1100
+1976,Russia,125,49,41,35,0.49,Europe,300,1100
+1980,Russia,195,80,69,46,0.5,Europe,300,1100
+1988,Russia,132,55,31,46,0.52,Europe,300,1100
+1900,Spain,1,1,0,0,0.17,Europe,400,1200
+1920,Spain,2,0,2,0,0.21,Europe,400,1200
+1928,Spain,1,1,0,0,0.23,Europe,400,1200
+1932,Spain,1,0,0,1,0.25,Europe,400,1200
+1948,Spain,1,0,1,0,0.3,Europe,400,1200
+1952,Spain,1,0,1,0,0.34,Europe,400,1200
+1960,Spain,1,0,0,1,0.41,Europe,400,1200
+1972,Spain,1,0,0,1,0.47,Europe,400,1200
+1976,Spain,2,0,2,0,0.51,Europe,400,1200
+1980,Spain,6,1,3,2,0.54,Europe,400,1200
+1984,Spain,5,1,2,2,0.54,Europe,400,1200
+1988,Spain,4,1,1,2,0.59,Europe,400,1200
+1992,Spain,22,13,7,2,0.62,Europe,400,1200
+1996,Spain,17,5,6,6,0.67,Europe,400,1200
+2000,Spain,11,3,3,5,0.71,Europe,400,1200
+2004,Spain,20,3,11,6,0.71,Europe,400,1200
+2008,Spain,19,5,11,3,0.81,Europe,400,1200
+2012,Spain,19,4,10,5,0.85,Europe,400,1200
+2016,Spain,17,7,4,6,0.85,Europe,400,1200
+2020,Spain,17,3,8,6,0.85,Europe,400,1200
+2000,Sri Lanka,1,0,1,0,0.46,Asia,500,1200
+2008,Sudan,1,0,1,0,0.27,Africa,600,1200
+1988,Suriname,1,1,0,0,-1,South America,700,1200
+1992,Suriname,1,0,0,1,-1,South America,700,1200
+1900,Sweden,1,0,0,1,0.33,Europe,800,1200
+1908,Sweden,25,8,6,11,0.33,Europe,800,1200
+1912,Sweden,65,24,24,17,0.33,Europe,800,1200
+1920,Sweden,64,19,20,25,0.35,Europe,800,1200
+1924,Sweden,29,4,13,12,0.35,Europe,800,1200
+1928,Sweden,25,7,6,12,0.36,Europe,800,1200
+1932,Sweden,23,9,5,9,0.37,Europe,800,1200
+1936,Sweden,20,6,5,9,0.38,Europe,800,1200
+1948,Sweden,44,16,11,17,0.45,Europe,800,1200
+1952,Sweden,35,12,13,10,0.48,Europe,800,1200
+1956,Sweden,19,8,5,6,0.5,Europe,800,1200
+1960,Sweden,6,1,2,3,0.51,Europe,800,1200
+1964,Sweden,8,2,2,4,0.51,Europe,800,1200
+1968,Sweden,4,2,1,1,0.55,Europe,800,1200
+1972,Sweden,16,4,6,6,0.57,Europe,800,1200
+1976,Sweden,5,4,1,0,0.59,Europe,800,1200
+1980,Sweden,12,3,3,6,0.61,Europe,800,1200
+1984,Sweden,19,2,11,6,0.61,Europe,800,1200
+1988,Sweden,11,0,4,7,0.62,Europe,800,1200
+1992,Sweden,12,1,7,4,0.67,Europe,800,1200
+1996,Sweden,8,2,4,2,0.8,Europe,800,1200
+2000,Sweden,12,4,5,3,0.83,Europe,800,1200
+2004,Sweden,7,4,2,1,0.83,Europe,800,1200
+2008,Sweden,5,0,4,1,0.78,Europe,800,1200
+2012,Sweden,8,1,4,3,0.86,Europe,800,1200
+2016,Sweden,11,2,6,3,0.86,Europe,800,1200
+2020,Sweden,9,3,6,0,0.86,Europe,800,1200
+1896,Switzerland,3,1,2,0,0.32,Europe,900,1200
+1900,Switzerland,9,6,2,1,0.33,Europe,900,1200
+1904,Switzerland,3,1,0,2,0.33,Europe,900,1200
+1912,Switzerland,1,1,0,0,0.33,Europe,900,1200
+1920,Switzerland,11,2,2,7,0.37,Europe,900,1200
+1924,Switzerland,25,7,8,10,0.37,Europe,900,1200
+1928,Switzerland,15,7,4,4,0.38,Europe,900,1200
+1932,Switzerland,1,0,1,0,0.39,Europe,900,1200
+1936,Switzerland,15,1,9,5,0.41,Europe,900,1200
+1948,Switzerland,20,5,10,5,0.44,Europe,900,1200
+1952,Switzerland,14,2,6,6,0.48,Europe,900,1200
+1956,Switzerland,1,0,0,1,0.49,Europe,900,1200
+1960,Switzerland,6,0,3,3,0.5,Europe,900,1200
+1964,Switzerland,4,1,2,1,0.5,Europe,900,1200
+1968,Switzerland,5,0,1,4,0.51,Europe,900,1200
+1972,Switzerland,3,0,3,0,0.54,Europe,900,1200
+1976,Switzerland,4,1,1,2,0.59,Europe,900,1200
+1980,Switzerland,2,2,0,0,0.6,Europe,900,1200
+1984,Switzerland,8,0,4,4,0.6,Europe,900,1200
+1988,Switzerland,4,0,2,2,0.61,Europe,900,1200
+1992,Switzerland,1,1,0,0,0.64,Europe,900,1200
+1996,Switzerland,7,4,3,0,0.69,Europe,900,1200
+2000,Switzerland,9,1,6,2,0.73,Europe,900,1200
+2004,Switzerland,5,1,1,3,0.73,Europe,900,1200
+2008,Switzerland,7,2,1,4,0.76,Europe,900,1200
+2012,Switzerland,4,2,2,0,0.8,Europe,900,1200
+2016,Switzerland,7,3,2,2,0.8,Europe,900,1200
+2020,Switzerland,13,3,4,6,0.8,Europe,900,1200
+1984,Syria,1,0,1,0,0.34,Asia,1000,1200
+1996,Syria,1,1,0,0,0.4,Asia,1000,1200
+2004,Syria,1,0,0,1,0.44,Asia,1000,1200
+2020,Syria,1,0,0,1,0.43,Asia,1000,1200
+2008,Tajikistan,2,0,1,1,0.42,Asia,100,1300
+2012,Tajikistan,1,0,0,1,0.44,Asia,100,1300
+2016,Tajikistan,1,1,0,0,0.44,Asia,100,1300
+1980,Tanzania,2,0,2,0,0.18,Africa,200,1300
+1976,Thailand,1,0,0,1,0.34,Asia,300,1300
+1984,Thailand,1,0,1,0,0.37,Asia,300,1300
+1988,Thailand,1,0,0,1,0.39,Asia,300,1300
+1992,Thailand,1,0,0,1,0.42,Asia,300,1300
+1996,Thailand,2,1,0,1,0.42,Asia,300,1300
+2000,Thailand,3,1,0,2,0.45,Asia,300,1300
+2004,Thailand,8,3,1,4,0.45,Asia,300,1300
+2008,Thailand,6,2,2,2,0.49,Asia,300,1300
+2012,Thailand,4,0,2,2,0.51,Asia,300,1300
+2016,Thailand,6,2,2,2,0.51,Asia,300,1300
+2020,Thailand,2,1,0,1,0.51,Asia,300,1300
+2008,Togo,1,0,0,1,0.26,Africa,400,1300
+1996,Tonga,1,0,1,0,-1,Oceania,500,1300
+1948,Trinidad and Tobago,1,0,1,0,0.34,North America,600,1300
+1952,Trinidad and Tobago,2,0,0,2,0.34,North America,600,1300
+1964,Trinidad and Tobago,3,0,1,2,0.41,North America,600,1300
+1976,Trinidad and Tobago,1,1,0,0,0.46,North America,600,1300
+1996,Trinidad and Tobago,2,0,0,2,0.49,North America,600,1300
+2000,Trinidad and Tobago,2,0,1,1,0.51,North America,600,1300
+2004,Trinidad and Tobago,1,0,0,1,0.51,North America,600,1300
+2008,Trinidad and Tobago,2,1,1,0,0.53,North America,600,1300
+2012,Trinidad and Tobago,4,1,1,2,0.54,North America,600,1300
+2016,Trinidad and Tobago,1,0,0,1,0.54,North America,600,1300
+1964,Tunisia,2,0,1,1,0.19,Africa,700,1300
+1968,Tunisia,2,1,0,1,0.21,Africa,700,1300
+1972,Tunisia,1,0,1,0,0.24,Africa,700,1300
+1996,Tunisia,1,0,0,1,0.4,Africa,700,1300
+2008,Tunisia,1,1,0,0,0.46,Africa,700,1300
+2012,Tunisia,3,2,0,1,0.48,Africa,700,1300
+2016,Tunisia,3,0,0,3,0.48,Africa,700,1300
+2020,Tunisia,2,1,1,0,0.48,Africa,700,1300
+1936,Turkey,2,1,0,1,0.12,Asia,800,1300
+1948,Turkey,12,6,4,2,0.16,Asia,800,1300
+1952,Turkey,3,2,0,1,0.18,Asia,800,1300
+1956,Turkey,7,3,2,2,0.2,Asia,800,1300
+1960,Turkey,9,7,2,0,0.23,Asia,800,1300
+1964,Turkey,6,2,3,1,0.23,Asia,800,1300
+1968,Turkey,2,2,0,0,0.26,Asia,800,1300
+1972,Turkey,1,0,1,0,0.29,Asia,800,1300
+1984,Turkey,3,0,0,3,0.33,Asia,800,1300
+1988,Turkey,2,1,1,0,0.36,Asia,800,1300
+1992,Turkey,6,2,2,2,0.38,Asia,800,1300
+1996,Turkey,6,4,1,1,0.41,Asia,800,1300
+2000,Turkey,5,3,0,2,0.46,Asia,800,1300
+2004,Turkey,11,3,3,5,0.46,Asia,800,1300
+2008,Turkey,5,1,1,3,0.5,Asia,800,1300
+2012,Turkey,3,1,1,1,0.55,Asia,800,1300
+2016,Turkey,8,1,3,4,0.55,Asia,800,1300
+2020,Turkey,13,2,2,9,0.55,Asia,800,1300
+2020,Turkmenistan,1,0,1,0,-1,Asia,900,1300
+1968,Uganda,2,0,1,1,0.15,Africa,1000,1300
+1972,Uganda,2,1,1,0,0.16,Africa,1000,1300
+1980,Uganda,1,0,1,0,0.17,Africa,1000,1300
+1996,Uganda,1,0,0,1,0.22,Africa,1000,1300
+2012,Uganda,1,1,0,0,0.28,Africa,1000,1300
+2020,Uganda,4,2,1,1,0.28,Africa,1000,1300
+1996,Ukraine,23,9,2,12,0.48,Europe,1000,1300
+2000,Ukraine,23,3,10,10,0.52,Europe,1000,1300
+2004,Ukraine,22,8,5,9,0.52,Europe,1000,1300
+2008,Ukraine,22,7,4,11,0.54,Europe,1000,1300
+2012,Ukraine,19,5,4,10,0.56,Europe,1000,1300
+2016,Ukraine,11,2,5,4,0.56,Europe,1000,1300
+2020,Ukraine,19,1,6,12,0.56,Europe,1000,1300
+1992,Unified Team,112,45,38,29,-1,,,
+2004,United Arab Emirates,1,1,0,0,0.51,Asia,100,1400
+2016,United Arab Emirates,1,0,0,1,0.59,Asia,100,1400
+1896,United States,20,11,7,2,0.29,North America,200,1400
+1900,United States,48,19,14,15,0.31,North America,200,1400
+1904,United States,231,76,78,77,0.31,North America,200,1400
+1908,United States,47,23,12,12,0.31,North America,200,1400
+1912,United States,64,26,19,19,0.31,North America,200,1400
+1920,United States,95,41,27,27,0.37,North America,200,1400
+1924,United States,99,45,27,27,0.37,North America,200,1400
+1928,United States,56,22,18,16,0.38,North America,200,1400
+1932,United States,103,41,32,30,0.38,North America,200,1400
+1936,United States,56,24,20,12,0.42,North America,200,1400
+1948,United States,84,38,27,19,0.47,North America,200,1400
+1952,United States,76,40,19,17,0.49,North America,200,1400
+1956,United States,74,32,25,17,0.51,North America,200,1400
+1960,United States,71,34,21,16,0.55,North America,200,1400
+1964,United States,90,36,26,28,0.55,North America,200,1400
+1968,United States,107,45,28,34,0.55,North America,200,1400
+1972,United States,94,33,31,30,0.57,North America,200,1400
+1976,United States,94,34,35,25,0.59,North America,200,1400
+1984,United States,174,83,61,30,0.62,North America,200,1400
+1988,United States,94,36,31,27,0.64,North America,200,1400
+1992,United States,108,37,34,37,0.69,North America,200,1400
+1996,United States,101,44,32,25,0.72,North America,200,1400
+2000,United States,93,37,24,32,0.74,North America,200,1400
+2004,United States,101,36,39,26,0.74,North America,200,1400
+2008,United States,112,36,39,37,0.77,North America,200,1400
+2012,United States,104,46,28,30,0.78,North America,200,1400
+2016,United States,121,46,37,38,0.78,North America,200,1400
+2020,United States,113,39,41,33,0.78,North America,200,1400
+1956,United Team of Germany,26,6,13,7,-1,Europe,,
+1960,United Team of Germany,42,12,19,11,-1,Europe,,
+1964,United Team of Germany,50,10,22,18,-1,Europe,,
+1924,Uruguay,1,1,0,0,0.24,South America,300,1400
+1928,Uruguay,1,1,0,0,0.26,South America,300,1400
+1932,Uruguay,1,0,0,1,0.26,South America,300,1400
+1948,Uruguay,2,0,1,1,0.35,South America,300,1400
+1952,Uruguay,2,0,0,2,0.37,South America,300,1400
+1956,Uruguay,1,0,0,1,0.39,South America,300,1400
+1964,Uruguay,1,0,0,1,0.4,South America,300,1400
+2000,Uruguay,1,0,1,0,0.6,South America,300,1400
+1996,Uzbekistan,2,0,1,1,0.45,Asia,400,1400
+2000,Uzbekistan,4,1,1,2,0.47,Asia,400,1400
+2004,Uzbekistan,5,2,1,2,0.47,Asia,400,1400
+2008,Uzbekistan,4,0,1,3,0.48,Asia,400,1400
+2012,Uzbekistan,3,0,0,3,0.51,Asia,400,1400
+2016,Uzbekistan,13,4,2,7,0.51,Asia,400,1400
+2020,Uzbekistan,5,3,0,2,0.51,Asia,400,1400
+1952,Venezuela,1,0,0,1,0.25,South America,500,1400
+1960,Venezuela,1,0,0,1,0.33,South America,500,1400
+1968,Venezuela,1,1,0,0,0.36,South America,500,1400
+1976,Venezuela,1,0,1,0,0.41,South America,500,1400
+1980,Venezuela,1,0,1,0,0.43,South America,500,1400
+1984,Venezuela,3,0,0,3,0.43,South America,500,1400
+2004,Venezuela,2,0,0,2,0.5,South America,500,1400
+2008,Venezuela,1,0,0,1,0.56,South America,500,1400
+2012,Venezuela,1,1,0,0,0.56,South America,500,1400
+2016,Venezuela,3,0,2,1,0.56,South America,500,1400
+2020,Venezuela,4,1,3,0,0.56,South America,500,1400
+2000,Vietnam,1,0,1,0,0.43,Asia,600,1400
+2008,Vietnam,1,0,1,0,0.45,Asia,600,1400
+2012,Vietnam,1,0,0,1,0.48,Asia,600,1400
+2016,Vietnam,2,1,1,0,0.48,Asia,600,1400
+1988,Virgin Islands,1,0,1,0,-1,North America,700,1400
+1968,West Germany,26,5,11,10,-1,Europe,800,1400
+1972,West Germany,40,13,11,16,-1,Europe,800,1400
+1976,West Germany,39,10,12,17,-1,Europe,800,1400
+1984,West Germany,59,17,19,23,-1,Europe,800,1400
+1988,West Germany,40,11,14,15,-1,Europe,800,1400
+1924,Yugoslavia,2,2,0,0,-1,Europe,900,1400
+1928,Yugoslavia,5,1,1,3,-1,Europe,900,1400
+1936,Yugoslavia,1,0,1,0,-1,Europe,900,1400
+1948,Yugoslavia,2,0,2,0,-1,Europe,900,1400
+1952,Yugoslavia,3,1,2,0,-1,Europe,900,1400
+1956,Yugoslavia,3,0,3,0,-1,Europe,900,1400
+1960,Yugoslavia,2,1,1,0,-1,Europe,900,1400
+1964,Yugoslavia,5,2,1,2,-1,Europe,900,1400
+1968,Yugoslavia,8,3,3,2,-1,Europe,900,1400
+1972,Yugoslavia,5,2,1,2,-1,Europe,900,1400
+1976,Yugoslavia,8,2,3,3,-1,Europe,900,1400
+1980,Yugoslavia,9,2,3,4,-1,Europe,900,1400
+1984,Yugoslavia,18,7,4,7,-1,Europe,900,1400
+1988,Yugoslavia,12,3,4,5,-1,Europe,900,1400
+1996,Yugoslavia,4,1,1,2,-1,Europe,900,1400
+2000,Yugoslavia,3,1,1,1,-1,Europe,900,1400
+1984,Zambia,1,0,0,1,0.21,Africa,1000,1400
+1996,Zambia,1,0,1,0,0.18,Africa,1000,1400
+1980,Zimbabwe,1,1,0,0,0.3,Africa,100,1500
+2004,Zimbabwe,3,1,1,1,0.22,Africa,100,1500
+2008,Zimbabwe,4,1,3,0,0.23,Africa,100,1500
