@@ -1,20 +1,7 @@
-var dimension = [1920, 1680];
+var dimension = [1920, 600];
 var selected_year = 2008;
 var selected_country = 'United States';
-function display_hdi(d){
-  console.log(d)
-  document.getElementById("demo").innerHTML = "Detailed Info:<br>" +
-  "\nCountry Name: " + d.Country_Name +
-  "<br>\nYear: " + d.Year +
-  "<br>\nMedal Count: " + d.Total_Medals +
-  "<br>\n HDI Index: " + d.HDI;
 
-  return "Detailed Info:" +
-    "\nCountry Name: " + d.Country_Name +
-    "\nYear: " + d.Year +
-    "\nMedal Count: " + d.Total_Medals +
-    "\n HDI Index: " + d.HDI;
-}
 function sigmoid(radius, w=90, b=40, c=4){
   return (1/(1+Math.pow(Math.E, -(radius / w))) * w - b ) * c/2;
   // return (1+Math.log(radius)) * 10;
@@ -22,11 +9,68 @@ function sigmoid(radius, w=90, b=40, c=4){
 var continent_color = d3.scaleOrdinal().domain(['Asia', 'Africa', 'South America', 'Europe', 'Oceania', 'North America']).range(d3.schemeCategory10);
 var HDI_color = d3.scaleSequential(d3.interpolateCool);
 
-draw1 = draw()
+draw1 = draw(2008)
 
-function draw(){
+function draw(selected_year){
+  
+
+
+  console.log(selected_year)
   d3.csv("data/new_locations_continents.csv", function(data){
-    var myColor = d3.scaleOrdinal()
+    function display_hdi(d = d => d.Country_Name == 'United States'){
+      console.log(d)
+      document.getElementById("demo").innerHTML = "Detailed Info:<br>" +
+      "\nCountry Name: " + d.Country_Name +
+      "<br>\nYear: " + d.Year +
+      "<br>\nMedal Count: " + d.Total_Medals +
+      "<br>\n HDI Index: " + d.HDI;
+    
+      return "Detailed Info:" +
+        "\nCountry Name: " + d.Country_Name +
+        "\nYear: " + d.Year +
+        "\nMedal Count: " + d.Total_Medals +
+        "\n HDI Index: " + d.HDI;
+    }
+
+    var dataTime = d3.range(1896, 2021, 4).map(function(d) {
+      return new Date(d, 10, 3);
+    });
+
+    var sliderTime = d3
+      .sliderBottom()
+      .min(d3.min(dataTime))
+      .max(d3.max(dataTime))
+      .step(4*1000 * 60 * 60 * 24 * 365)
+      .width(300)
+      .tickFormat(d3.timeFormat('%Y'))
+      .tickValues(dataTime)
+      .default(new Date(2008, 10, 3))
+      .on('onchange', val => {
+        d3.select('p#value-time').text(d3.timeFormat('%Y')(val));
+        svg.selectAll("*").remove();
+        svg2.selectAll("*").remove();
+        draw2(d3.timeFormat('%Y')(sliderTime.value()))
+      });
+
+    var gTime = d3
+      .select('div#slider-time')
+      .append('svg')
+      .attr('width', 500)
+      .attr('height', 100)
+      .append('g')
+      .attr('transform', 'translate(30,30)');
+
+    gTime.call(sliderTime);
+
+    d3.select('p#value-time').text(d3.timeFormat('%Y')(sliderTime.value()));
+    
+    var svg = d3.select("svg")
+                .attr("width", dimension[0])
+                .attr("height", dimension[1])
+    var svg2 = d3.select("#svg2");
+    draw2()
+    function draw2(selected_year = 2008){
+      var myColor = d3.scaleOrdinal()
     for (var i = 0; i < data.length; i++) {
         // console.log(data[i].longitude);
         // console.log(data[i].latitude);
@@ -35,9 +79,7 @@ function draw(){
     // data = data.filter(d => d.Continent == "Asia")
     // console.log(data.Continent);
     // Step 3
-    var svg = d3.select("svg")
-                .attr("width", dimension[0])
-                .attr("height", dimension[1])
+    
                 
     svg.append("line")          // attach a line
     .style("stroke", "black")  // colour the line
@@ -87,11 +129,8 @@ function draw(){
           console.log(data2)
           svg.selectAll("*").remove();
           svg2.selectAll("*").remove();
-          draw()
-          
-          
-  
-          display_hdi(data1);})
+          draw2(d3.timeFormat('%Y')(sliderTime.value()))
+          ;})
           .attr("cx", function(d) {return (d.latitude/2)})
           .attr("cy", function(d) {return (d.longitude/2)})
   
@@ -192,7 +231,7 @@ function draw(){
   
     data2 = data.filter(d => d.Country_Name == selected_country);
     console.log(data2)
-    var svg2 = d3.select("#svg2");
+    
     // svg2.append("text")
     //      .attr('x', 100)
     //      .attr("y", 13)
@@ -287,6 +326,9 @@ function draw(){
       .style("alignment-baseline", "middle")
       .on("mouseover", highlight)
       .on("mouseleave", noHighlight)
+    }
+
+    
   });
   
 }
