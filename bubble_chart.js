@@ -11,12 +11,15 @@ var HDI_color = d3.scaleSequential(d3.interpolateCool);
 
 draw1 = draw(2008)
 
+// 
 function draw(selected_year){
   
 
 
   console.log(selected_year)
   d3.csv("data/new_locations_continents.csv", function(data){
+
+    //  return to html on details
     function display_hdi(d = d => d.Country_Name == 'United States'){
       console.log(d)
       document.getElementById("demo").innerHTML = "Detailed Info:<br>" +
@@ -46,6 +49,7 @@ function draw(selected_year){
       .tickValues(dataTime)
       .default(new Date(2008, 10, 3))
       .on('onchange', val => {
+        // change the slider time
         d3.select('p#value-time').text(d3.timeFormat('%Y')(val));
         svg.selectAll("*").remove();
         svg2.selectAll("*").remove();
@@ -69,6 +73,8 @@ function draw(selected_year){
                 .attr("height", dimension[1])
     var svg2 = d3.select("#svg2");
     draw2()
+
+    //  draw bubbles and details
     function draw2(selected_year = 2008){
       var myColor = d3.scaleOrdinal()
     for (var i = 0; i < data.length; i++) {
@@ -124,6 +130,7 @@ function draw(selected_year){
         .append("circle")
         .attr("class", function(d) { return "bubbles " + parseFloat(d.HDI).toFixed(1) })
         .on("click", function(data1) {
+          //  change the on click country
           selected_country = data1.Country_Name
           data2 = data.filter(d => d.Country_Name == selected_country);
           console.log(data2)
